@@ -5,7 +5,7 @@ services:
     container_name: jellyseerr
     environment:
       - LOG_LEVEL=debug
-      - TZ=Europe/Warsaw
+      - TZ=${TIMEZONE}
     ports:
       - 5055:5055
     volumes:
@@ -21,7 +21,7 @@ services:
     environment:
       - PUID=1000
       - PGID=1000
-      - TZ=Europe/Warsaw
+      - TZ=${TIMEZONE}
       - JELLYFIN_PublishedServerUrl=${PUBLIC_IP}
     volumes:
       - ${CONFIG_PATH}/Jellyfin:/config
@@ -43,7 +43,7 @@ services:
     environment:
       - PUID=1000
       - PGID=1000
-      - TZ=Europe/Warsaw
+      - TZ=${TIMEZONE}
     volumes:
       - ${CONFIG_PATH}/Bazarr:/config
       - ${MEDIA_PATH}/Media/movies:/movies #optional
@@ -58,7 +58,7 @@ services:
     environment:
       - PUID=1000
       - PGID=1000
-      - TZ=Europe/Warsaw
+      - TZ=${TIMEZONE}
     volumes:
       - ${CONFIG_PATH}/Sonarr:/config
       - ${MEDIA_PATH}/Media/tvseries:/tv #optional
@@ -73,7 +73,7 @@ services:
     environment:
       - PUID=1000
       - PGID=1000
-      - TZ=Europe/Warsaw
+      - TZ=${TIMEZONE}
     volumes:
       - ${CONFIG_PATH}/Radarr:/config
       - ${MEDIA_PATH}/Media/movies:/movies #optional
@@ -88,7 +88,7 @@ services:
     environment:
       - PUID=1000
       - PGID=1000
-      - TZ=Europe/Warsaw
+      - TZ=${TIMEZONE}
       - WEBUI_PORT=8080
     volumes:
       - ${CONFIG_PATH}/qBittorrent:/config/qBittorrent
@@ -105,7 +105,7 @@ services:
     environment:
       - PUID=1000
       - PGID=1000
-      - TZ=Europe/Warsaw
+      - TZ=${TIMEZONE}
     volumes:
       - ${CONFIG_PATH}/Prowlarr:/config
     ports:
@@ -135,7 +135,7 @@ services:
     environment:
       - PUID=1000
       - PGID=1000
-      - TZ=Europe/Warsaw
+      - TZ=${TIMEZONE}
     ports:
       - 800:8080
     volumes:
