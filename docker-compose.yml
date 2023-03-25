@@ -139,7 +139,7 @@ services:
     ports:
       - 800:8080
     volumes:
-      - /home/${USER}:/data/Home
+      - /home:/data/Home
       - ${MEDIA_PATH}:/data/"Media Files"
       - ${CONFIG_PATH}:/data/"Config Files"
     restart: unless-stopped
