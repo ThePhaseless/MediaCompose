@@ -31,8 +31,6 @@ This docker-compose file will download:
 
 - Radarr
 
-- Lidarr
-
 - qBittorrent
 
 - Prowlarr
