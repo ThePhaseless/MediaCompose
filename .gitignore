@@ -1,1 +1,14 @@
 env.env
+/Config/Prowlarr/logs
+/Config/Jellyfin/dlna
+/Config/Jellyfin/dlna/system
+/Config/Jellyfin/data/data/ScheduledTasks
+/Config/Jellyfin/log
+/Config/Jellyseerr/logs
+/Config/Sonarr/.config/.mono/keypairs
+/Config/Sonarr/logs
+/Config/Radarr/asp
+/Config/Radarr/logs
+/Config/Prowlarr/asp
+/Config/qBittorrent/logs
+/Config/qBittorrent/BT_backup
