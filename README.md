@@ -4,13 +4,12 @@ A docker-compose project for fast self-hosted media center
 
 ## How to use
 
-Set MEDIA_PATH (downloads and media files location) and CONFIG_PATH (self explanatory) envs in `.env` file or in any other way and
-
+Set envs in `env.env` file or in any other way and
 **_drop insides of Config file inside CONFIG_PATH!_**
 
 To run with .env file use command next in folder with `docker-compose.yml`:
 
-`sudo docker-compose --env-file .env up -d`
+`sudo docker-compose --env-file env.env up -d`
 
 ### Credentials:
 
