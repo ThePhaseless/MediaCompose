@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PluginConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CacheFingerprints>true</CacheFingerprints>
+  <MaxParallelism>2</MaxParallelism>
+  <SelectedLibraries />
+  <AnalyzeSeasonZero>false</AnalyzeSeasonZero>
+  <EdlAction>None</EdlAction>
+  <RegenerateEdlFiles>false</RegenerateEdlFiles>
+  <AnalysisPercent>25</AnalysisPercent>
+  <AnalysisLengthLimit>10</AnalysisLengthLimit>
+  <MinimumIntroDuration>15</MinimumIntroDuration>
+  <MaximumIntroDuration>120</MaximumIntroDuration>
+  <AutoSkip>false</AutoSkip>
+  <ShowPromptAdjustment>5</ShowPromptAdjustment>
+  <HidePromptAdjustment>10</HidePromptAdjustment>
+  <SkipFirstEpisode>true</SkipFirstEpisode>
+  <SecondsOfIntroToPlay>2</SecondsOfIntroToPlay>
+  <MaximumFingerprintPointDifferences>6</MaximumFingerprintPointDifferences>
+  <MaximumTimeSkip>3.5</MaximumTimeSkip>
+  <InvertedIndexShift>2</InvertedIndexShift>
+  <SilenceDetectionMaximumNoise>-50</SilenceDetectionMaximumNoise>
+  <SilenceDetectionMinimumDuration>0.33</SilenceDetectionMinimumDuration>
+</PluginConfiguration>

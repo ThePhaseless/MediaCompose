@@ -1,0 +1,15 @@
+{
+  "category": "General",
+  "changelog": "- See the full changelog at [GitHub](https://github.com/ConfusedPolarBear/intro-skipper/blob/master/CHANGELOG.md)\n",
+  "description": "Analyzes the audio of television episodes and detects introduction sequences.",
+  "guid": "c83d86bb-a1e0-4c35-a113-e2101cf4ee6b",
+  "name": "Intro Skipper",
+  "overview": "Automatically detect and skip intros in television episodes",
+  "owner": "ConfusedPolarBear",
+  "targetAbi": "10.8.4.0",
+  "timestamp": "2022-10-27T05:27:27.0000000Z",
+  "version": "0.1.7.0",
+  "status": "Active",
+  "autoUpdate": true,
+  "imagePath": "/config/data/plugins/Intro Skipper_0.1.7.0/logo.png"
+}

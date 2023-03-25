@@ -1,0 +1,15 @@
+{
+  "category": "General",
+  "changelog": "### Bug Fixes ###\n- Fix the scheduled task section name (part of #71) @Shadowghost\n\n### Code or Repo Maintenance ###\n- Cleanup logging and naming (#71) @Shadowghost\n\n### Dependency updates ###\n- Upgrades LiteDB to v5 (part of #71) @Shadowghost\n\n### CI \u0026 build changes ###\n- fix: meta ci workflows (#68) @h1dden-da3m0n",
+  "description": "This plugin will track all media changes while Kodi clients are offline to decrease sync times.",
+  "guid": "771e19d6-5385-4caf-b35c-28a0e865cf63",
+  "name": "Kodi Sync Queue",
+  "overview": "Sync all media changes with Kodi clients",
+  "owner": "jellyfin",
+  "targetAbi": "10.8.3.0",
+  "timestamp": "2022-08-07T14:57:13.0000000Z",
+  "version": "9.0.0.0",
+  "status": "Active",
+  "autoUpdate": true,
+  "imagePath": "/config/data/plugins/Kodi Sync Queue_9.0.0.0/jellyfin-plugin-kodisyncqueue.png"
+}

@@ -1,0 +1,702 @@
+[2023-03-25 17:10:14.355 +01:00] [INF] [4] Main: Jellyfin version: "10.8.9"
+[2023-03-25 17:10:14.401 +01:00] [INF] [4] Main: Environment Variables: ["[JELLYFIN_DATA_DIR, /config/data]", "[JELLYFIN_LOG_DIR, /config/log]", "[JELLYFIN_PublishedServerUrl, localhost]", "[JELLYFIN_WEB_DIR, /usr/share/jellyfin/web]", "[JELLYFIN_CACHE_DIR, /config/cache]", "[JELLYFIN_CONFIG_DIR, /config]"]
+[2023-03-25 17:10:14.410 +01:00] [INF] [4] Main: Arguments: ["/usr/lib/jellyfin/bin/jellyfin.dll", "--ffmpeg=/usr/lib/jellyfin-ffmpeg/ffmpeg"]
+[2023-03-25 17:10:14.410 +01:00] [INF] [4] Main: Operating system: "Linux"
+[2023-03-25 17:10:14.411 +01:00] [INF] [4] Main: Architecture: X64
+[2023-03-25 17:10:14.413 +01:00] [INF] [4] Main: 64-Bit Process: True
+[2023-03-25 17:10:14.413 +01:00] [INF] [4] Main: User Interactive: True
+[2023-03-25 17:10:14.414 +01:00] [INF] [4] Main: Processor count: 8
+[2023-03-25 17:10:14.414 +01:00] [INF] [4] Main: Program data path: "/config/data"
+[2023-03-25 17:10:14.414 +01:00] [INF] [4] Main: Web resources path: "/usr/share/jellyfin/web"
+[2023-03-25 17:10:14.414 +01:00] [INF] [4] Main: Application directory: "/usr/lib/jellyfin/bin/"
+[2023-03-25 17:10:14.477 +01:00] [INF] [4] Jellyfin.Server.Migrations.MigrationRunner: Marking following migrations as applied because this is a fresh install: ["CreateNetworkConfiguration"]
+[2023-03-25 17:10:14.618 +01:00] [INF] [4] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Setting cache path: "/config/cache"
+[2023-03-25 17:10:14.633 +01:00] [INF] [4] Emby.Server.Implementations.ApplicationHost: Loading assemblies
+[2023-03-25 17:10:14.720 +01:00] [INF] [4] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-03-25 17:10:14.726 +01:00] [INF] [4] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-03-25 17:10:14.729 +01:00] [INF] [4] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-03-25 17:10:14.741 +01:00] [INF] [4] Jellyfin.Networking.Manager.NetworkManager: Using bind addresses: "[]"
+[2023-03-25 17:10:14.743 +01:00] [INF] [4] Jellyfin.Networking.Manager.NetworkManager: Using bind exclusions: "[]"
+[2023-03-25 17:10:16.432 +01:00] [INF] [4] Jellyfin.Server.Implementations.JellyfinDbProvider: There are pending EFCore migrations in the database. Applying... (This may take a while, do not stop Jellyfin)
+[2023-03-25 17:10:16.988 +01:00] [INF] [4] Jellyfin.Server.Implementations.JellyfinDbProvider: EFCore migrations applied successfully
+[2023-03-25 17:10:19.294 +01:00] [INF] [4] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Saving system configuration
+[2023-03-25 17:10:19.299 +01:00] [INF] [4] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Setting cache path: "/config/cache"
+[2023-03-25 17:10:19.305 +01:00] [INF] [4] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "TMDb" "10.8.9.0"
+[2023-03-25 17:10:19.307 +01:00] [INF] [4] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "Studio Images" "10.8.9.0"
+[2023-03-25 17:10:19.309 +01:00] [INF] [4] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "OMDb" "10.8.9.0"
+[2023-03-25 17:10:19.321 +01:00] [INF] [4] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "MusicBrainz" "10.8.9.0"
+[2023-03-25 17:10:19.333 +01:00] [INF] [4] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "AudioDB" "10.8.9.0"
+[2023-03-25 17:10:19.491 +01:00] [INF] [4] Jellyfin.Server.Migrations.MigrationRunner: Marking following migrations as applied because this is a fresh install: ["DisableTranscodingThrottling", "CreateLoggingConfigHeirarchy", "MigrateActivityLogDatabase", "RemoveDuplicateExtras", "MigrateUserDatabase", "MigrateDisplayPreferencesDatabase", "RemoveDownloadImagesInAdvance", "MigrateAuthenticationDatabase"]
+[2023-03-25 17:10:19.493 +01:00] [INF] [4] Jellyfin.Server.Migrations.MigrationRunner: Applying migration '"AddDefaultPluginRepository"'
+[2023-03-25 17:10:19.494 +01:00] [INF] [4] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Saving system configuration
+[2023-03-25 17:10:19.497 +01:00] [INF] [4] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Setting cache path: "/config/cache"
+[2023-03-25 17:10:19.497 +01:00] [INF] [4] Jellyfin.Server.Migrations.MigrationRunner: Migration '"AddDefaultPluginRepository"' applied successfully
+[2023-03-25 17:10:19.512 +01:00] [INF] [4] Jellyfin.Server.Migrations.MigrationRunner: Applying migration '"ReaddDefaultPluginRepository"'
+[2023-03-25 17:10:19.518 +01:00] [INF] [4] Jellyfin.Server.Migrations.MigrationRunner: Migration '"ReaddDefaultPluginRepository"' applied successfully
+[2023-03-25 17:10:19.546 +01:00] [INF] [4] Jellyfin.Server.Migrations.MigrationRunner: Applying migration '"AddPeopleQueryIndex"'
+[2023-03-25 17:10:19.551 +01:00] [INF] [4] Jellyfin.Server.Migrations.Routines.AddPeopleQueryIndex: Creating index idx_TypedBaseItemsUserDataKeyType
+[2023-03-25 17:10:19.706 +01:00] [INF] [4] Jellyfin.Server.Migrations.Routines.AddPeopleQueryIndex: Creating index idx_PeopleNameListOrder
+[2023-03-25 17:10:19.854 +01:00] [INF] [4] Jellyfin.Server.Migrations.MigrationRunner: Migration '"AddPeopleQueryIndex"' applied successfully
+[2023-03-25 17:10:19.902 +01:00] [INF] [4] Main: Kestrel listening on "Any IP4 Address"
+[2023-03-25 17:10:20.033 +01:00] [WRN] [4] Microsoft.AspNetCore.DataProtection.Repositories.EphemeralXmlRepository: Using an in-memory repository. Keys will not be persisted to storage.
+[2023-03-25 17:10:20.033 +01:00] [WRN] [4] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager: Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+[2023-03-25 17:10:20.560 +01:00] [WRN] [4] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager: No XML encryptor configured. Key {0014a9a7-2217-40a5-9caf-38c633c260bf} may be persisted to storage in unencrypted form.
+[2023-03-25 17:10:20.654 +01:00] [INF] [4] Emby.Server.Implementations.ApplicationHost: Running startup tasks
+[2023-03-25 17:10:20.740 +01:00] [INF] [4] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Extract Chapter Images" set to fire at 2023-03-26 02:00:00.000 +01:00, which is 08:49:39.2618270 from now.
+[2023-03-25 17:10:20.813 +01:00] [INF] [4] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Found ffmpeg version "5.1.2"
+[2023-03-25 17:10:20.922 +01:00] [INF] [4] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available "decoders": ["libdav1d", "av1", "av1_cuvid", "av1_qsv", "h264", "h264_qsv", "h264_cuvid", "hevc", "hevc_qsv", "hevc_cuvid", "mpeg2video", "mpeg2_qsv", "mpeg2_cuvid", "mpeg4", "mpeg4_cuvid", "msmpeg4", "vc1_qsv", "vc1_cuvid", "vp8", "libvpx", "vp8_cuvid", "vp8_qsv", "vp9", "libvpx-vp9", "vp9_cuvid", "vp9_qsv", "aac", "ac3", "flac", "mp3"]
+[2023-03-25 17:10:20.969 +01:00] [INF] [4] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available "encoders": ["libx264", "h264_amf", "h264_nvenc", "h264_qsv", "h264_v4l2m2m", "h264_vaapi", "libx265", "hevc_amf", "hevc_nvenc", "hevc_qsv", "hevc_vaapi", "mpeg4", "msmpeg4", "libvpx", "libvpx-vp9", "aac", "libfdk_aac", "ac3", "flac", "libmp3lame", "libopus", "libvorbis", "srt"]
+[2023-03-25 17:10:21.017 +01:00] [INF] [4] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available filters: ["deinterlace_qsv", "deinterlace_vaapi", "hwupload_cuda", "hwupload_vaapi", "overlay_opencl", "overlay_qsv", "overlay_vaapi", "overlay_cuda", "procamp_vaapi", "scale_cuda", "scale_opencl", "scale_qsv", "scale_vaapi", "tonemap_cuda", "tonemap_opencl", "tonemap_vaapi", "vpp_qsv", "yadif_cuda", "zscale", "alphasrc"]
+[2023-03-25 17:10:21.402 +01:00] [INF] [4] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available hwaccel types: ["cuda", "vaapi", "qsv", "drm", "opencl", "vulkan"]
+[2023-03-25 17:10:21.695 +01:00] [INF] [4] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: FFmpeg: "/usr/lib/jellyfin-ffmpeg/ffmpeg"
+[2023-03-25 17:10:21.716 +01:00] [INF] [4] Emby.Server.Implementations.ApplicationHost: ServerId: "0f6b3b653ccc4c65afbd78b2593d13e3"
+[2023-03-25 17:10:22.021 +01:00] [INF] [15] Emby.Server.Implementations.ApplicationHost: Executed all pre-startup entry points in 0:00:00.283873
+[2023-03-25 17:10:22.025 +01:00] [INF] [15] Emby.Server.Implementations.ApplicationHost: Core startup complete
+[2023-03-25 17:10:22.449 +01:00] [INF] [15] Emby.Server.Implementations.ApplicationHost: Executed all post-startup entry points in 0:00:00.42349
+[2023-03-25 17:10:22.452 +01:00] [INF] [15] Main: Startup complete 0:00:08.313267
+[2023-03-25 17:10:23.758 +01:00] [INF] [12] Emby.Server.Implementations.ScheduledTasks.TaskManager: "StartupTrigger" fired for task: "Update Plugins"
+[2023-03-25 17:10:23.760 +01:00] [INF] [12] Emby.Server.Implementations.ScheduledTasks.TaskManager: Queuing task "PluginUpdateTask"
+[2023-03-25 17:10:23.773 +01:00] [INF] [6] Emby.Server.Implementations.ScheduledTasks.TaskManager: Executing "Update Plugins"
+[2023-03-25 17:10:25.125 +01:00] [INF] [11] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Update Plugins" Completed after 0 minute(s) and 1 seconds
+[2023-03-25 17:10:25.249 +01:00] [INF] [11] Emby.Server.Implementations.ScheduledTasks.TaskManager: ExecuteQueuedTasks
+[2023-03-25 17:10:38.692 +01:00] [INF] [21] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Saving system configuration
+[2023-03-25 17:10:38.696 +01:00] [INF] [21] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Setting cache path: "/config/cache"
+[2023-03-25 17:10:38.714 +01:00] [INF] [21] Emby.Server.Implementations.EntryPoints.ExternalPortForwarding: Stopping NAT discovery
+[2023-03-25 17:10:38.760 +01:00] [WRN] [11] Jellyfin.Server.Implementations.Users.UserManager: No users, creating one with username "abc"
+[2023-03-25 17:10:52.035 +01:00] [WRN] [12] Jellyfin.Server.Middleware.ResponseTimeMiddleware: Slow HTTP Response from "http://192.168.1.111:8096/Library/VirtualFolders?collectionType=tvshows&refreshLibrary=false&name=Seriale" to "192.168.1.106" in 0:00:01.0796543 with Status Code 204
+[2023-03-25 17:11:00.438 +01:00] [WRN] [11] Jellyfin.Server.Middleware.ResponseTimeMiddleware: Slow HTTP Response from "http://192.168.1.111:8096/Library/VirtualFolders?collectionType=movies&refreshLibrary=false&name=Filmy" to "192.168.1.106" in 0:00:01.0031195 with Status Code 204
+[2023-03-25 17:11:03.262 +01:00] [INF] [16] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Saving system configuration
+[2023-03-25 17:11:03.263 +01:00] [INF] [16] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Setting cache path: "/config/cache"
+[2023-03-25 17:11:04.726 +01:00] [INF] [28] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-03-25 17:11:04.727 +01:00] [INF] [28] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-03-25 17:11:04.727 +01:00] [INF] [28] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-03-25 17:11:04.727 +01:00] [INF] [28] Jellyfin.Networking.Manager.NetworkManager: Using bind addresses: "[]"
+[2023-03-25 17:11:04.727 +01:00] [INF] [28] Jellyfin.Networking.Manager.NetworkManager: Using bind exclusions: "[]"
+[2023-03-25 17:11:05.818 +01:00] [INF] [12] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Saving system configuration
+[2023-03-25 17:11:05.821 +01:00] [INF] [12] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Setting cache path: "/config/cache"
+[2023-03-25 17:11:05.834 +01:00] [INF] [16] Emby.Server.Implementations.ScheduledTasks.TaskManager: Queuing task "RefreshMediaLibraryTask"
+[2023-03-25 17:11:05.841 +01:00] [INF] [16] Emby.Server.Implementations.EntryPoints.ExternalPortForwarding: Stopping NAT discovery
+[2023-03-25 17:11:05.845 +01:00] [INF] [16] Emby.Server.Implementations.EntryPoints.ExternalPortForwarding: Starting NAT discovery
+[2023-03-25 17:11:05.846 +01:00] [INF] [12] Emby.Server.Implementations.ScheduledTasks.TaskManager: Executing "Scan Media Library"
+[2023-03-25 17:11:05.857 +01:00] [INF] [12] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2023-03-25 17:11:06.520 +01:00] [ERR] [22] Emby.Server.Implementations.Library.LibraryManager: Error running post-scan task
+System.ArgumentException: Not enough valid pictures provided to create a splashscreen!
+   at Jellyfin.Drawing.Skia.SplashscreenBuilder.GenerateCollage(IReadOnlyList`1 posters, IReadOnlyList`1 backdrops)
+   at Jellyfin.Drawing.Skia.SplashscreenBuilder.GenerateSplash(IReadOnlyList`1 posters, IReadOnlyList`1 backdrops, String outputPath)
+   at Jellyfin.Drawing.Skia.SkiaEncoder.CreateSplashscreen(IReadOnlyList`1 posters, IReadOnlyList`1 backdrops)
+   at Emby.Server.Implementations.Library.SplashscreenPostScanTask.Run(IProgress`1 progress, CancellationToken cancellationToken)
+   at Emby.Server.Implementations.Library.LibraryManager.RunPostScanTasks(IProgress`1 progress, CancellationToken cancellationToken)
+[2023-03-25 17:11:06.554 +01:00] [INF] [22] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 0 seconds
+[2023-03-25 17:11:06.563 +01:00] [INF] [22] Emby.Server.Implementations.ScheduledTasks.TaskManager: ExecuteQueuedTasks
+[2023-03-25 17:11:06.570 +01:00] [INF] [13] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/data/tvshows"
+[2023-03-25 17:11:06.632 +01:00] [INF] [31] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/data/movies"
+[2023-03-25 17:11:09.485 +01:00] [INF] [11] Jellyfin.Server.Implementations.Users.UserManager: Authentication request for "admin" has succeeded.
+[2023-03-25 17:11:09.488 +01:00] [INF] [11] Emby.Server.Implementations.Session.SessionManager: Current/Max sessions for user "admin": 0/0
+[2023-03-25 17:11:09.543 +01:00] [INF] [11] Emby.Server.Implementations.Session.SessionManager: Creating new access token for user 875d0e94-4d6b-44f1-8455-77c56e4b1fb5
+[2023-03-25 17:11:09.698 +01:00] [INF] [22] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.1.106" request
+[2023-03-25 17:11:09.772 +01:00] [WRN] [16] Microsoft.EntityFrameworkCore.Model.Validation: The entity type '"AccessSchedule"' is configured to use schema '"jellyfin"', but SQLite does not support schemas. This configuration will be ignored by the SQLite provider.
+[2023-03-25 17:11:09.773 +01:00] [WRN] [16] Microsoft.EntityFrameworkCore.Model.Validation: The entity type '"ActivityLog"' is configured to use schema '"jellyfin"', but SQLite does not support schemas. This configuration will be ignored by the SQLite provider.
+[2023-03-25 17:11:09.773 +01:00] [WRN] [16] Microsoft.EntityFrameworkCore.Model.Validation: The entity type '"CustomItemDisplayPreferences"' is configured to use schema '"jellyfin"', but SQLite does not support schemas. This configuration will be ignored by the SQLite provider.
+[2023-03-25 17:11:09.773 +01:00] [WRN] [16] Microsoft.EntityFrameworkCore.Model.Validation: The entity type '"DisplayPreferences"' is configured to use schema '"jellyfin"', but SQLite does not support schemas. This configuration will be ignored by the SQLite provider.
+[2023-03-25 17:11:09.773 +01:00] [WRN] [16] Microsoft.EntityFrameworkCore.Model.Validation: The entity type '"HomeSection"' is configured to use schema '"jellyfin"', but SQLite does not support schemas. This configuration will be ignored by the SQLite provider.
+[2023-03-25 17:11:09.773 +01:00] [WRN] [16] Microsoft.EntityFrameworkCore.Model.Validation: The entity type '"ImageInfo"' is configured to use schema '"jellyfin"', but SQLite does not support schemas. This configuration will be ignored by the SQLite provider.
+[2023-03-25 17:11:09.773 +01:00] [WRN] [16] Microsoft.EntityFrameworkCore.Model.Validation: The entity type '"ItemDisplayPreferences"' is configured to use schema '"jellyfin"', but SQLite does not support schemas. This configuration will be ignored by the SQLite provider.
+[2023-03-25 17:11:09.774 +01:00] [WRN] [16] Microsoft.EntityFrameworkCore.Model.Validation: The entity type '"Permission"' is configured to use schema '"jellyfin"', but SQLite does not support schemas. This configuration will be ignored by the SQLite provider.
+[2023-03-25 17:11:09.774 +01:00] [WRN] [16] Microsoft.EntityFrameworkCore.Model.Validation: The entity type '"Preference"' is configured to use schema '"jellyfin"', but SQLite does not support schemas. This configuration will be ignored by the SQLite provider.
+[2023-03-25 17:11:09.774 +01:00] [WRN] [16] Microsoft.EntityFrameworkCore.Model.Validation: The entity type '"ApiKey"' is configured to use schema '"jellyfin"', but SQLite does not support schemas. This configuration will be ignored by the SQLite provider.
+[2023-03-25 17:11:09.774 +01:00] [WRN] [16] Microsoft.EntityFrameworkCore.Model.Validation: The entity type '"Device"' is configured to use schema '"jellyfin"', but SQLite does not support schemas. This configuration will be ignored by the SQLite provider.
+[2023-03-25 17:11:09.774 +01:00] [WRN] [16] Microsoft.EntityFrameworkCore.Model.Validation: The entity type '"DeviceOptions"' is configured to use schema '"jellyfin"', but SQLite does not support schemas. This configuration will be ignored by the SQLite provider.
+[2023-03-25 17:11:09.774 +01:00] [WRN] [16] Microsoft.EntityFrameworkCore.Model.Validation: The entity type '"User"' is configured to use schema '"jellyfin"', but SQLite does not support schemas. This configuration will be ignored by the SQLite provider.
+[2023-03-25 17:12:06.440 +01:00] [INF] [22] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Saving system configuration
+[2023-03-25 17:12:06.442 +01:00] [INF] [22] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Setting cache path: "/config/cache"
+[2023-03-25 17:12:09.070 +01:00] [WRN] [26] Jellyfin.Server.Middleware.ResponseTimeMiddleware: Slow HTTP Response from "http://192.168.1.111:8096/Packages?PackageType=UserInstalled" to "192.168.1.106" in 0:00:02.073105 with Status Code 200
+[2023-03-25 17:12:11.557 +01:00] [WRN] [27] Jellyfin.Server.Middleware.ResponseTimeMiddleware: Slow HTTP Response from "http://192.168.1.111:8096/Packages/Intro Skipper?AssemblyGuid=c83d86bba1e04c35a113e2101cf4ee6b" to "192.168.1.106" in 0:00:00.6608981 with Status Code 200
+[2023-03-25 17:12:15.221 +01:00] [INF] [11] Emby.Server.Implementations.Updates.InstallationManager: Plugin "installed": "Intro Skipper" "0.1.7.0"
+[2023-03-25 17:12:15.225 +01:00] [INF] [11] Emby.Server.Implementations.ApplicationHost: App needs to be restarted.
+[2023-03-25 17:12:15.229 +01:00] [WRN] [11] Jellyfin.Server.Middleware.ResponseTimeMiddleware: Slow HTTP Response from "http://192.168.1.111:8096/Packages/Installed/Intro Skipper?AssemblyGuid=c83d86bba1e04c35a113e2101cf4ee6b&version=0.1.7.0" to "192.168.1.106" in 0:00:01.9328704 with Status Code 204
+[2023-03-25 17:12:18.391 +01:00] [WRN] [11] Jellyfin.Server.Middleware.ResponseTimeMiddleware: Slow HTTP Response from "http://192.168.1.111:8096/Packages?PackageType=UserInstalled" to "192.168.1.106" in 0:00:00.5269271 with Status Code 200
+[2023-03-25 17:12:20.999 +01:00] [WRN] [15] Jellyfin.Server.Middleware.ResponseTimeMiddleware: Slow HTTP Response from "http://192.168.1.111:8096/Packages/Trakt?AssemblyGuid=4fe3201ed6ae4f2e8917e12bda571281" to "192.168.1.106" in 0:00:00.5655093 with Status Code 200
+[2023-03-25 17:12:23.189 +01:00] [INF] [26] Emby.Server.Implementations.Updates.InstallationManager: Plugin "installed": "Trakt" "23.0.0.0"
+[2023-03-25 17:12:23.189 +01:00] [INF] [26] Emby.Server.Implementations.ApplicationHost: App needs to be restarted.
+[2023-03-25 17:12:23.189 +01:00] [WRN] [26] Jellyfin.Server.Middleware.ResponseTimeMiddleware: Slow HTTP Response from "http://192.168.1.111:8096/Packages/Installed/Trakt?AssemblyGuid=4fe3201ed6ae4f2e8917e12bda571281&version=23.0.0.0" to "192.168.1.106" in 0:00:01.321229 with Status Code 204
+[2023-03-25 17:12:26.700 +01:00] [WRN] [26] Jellyfin.Server.Middleware.ResponseTimeMiddleware: Slow HTTP Response from "http://192.168.1.111:8096/Packages?PackageType=UserInstalled" to "192.168.1.106" in 0:00:02.0392618 with Status Code 200
+[2023-03-25 17:12:33.192 +01:00] [WRN] [15] Jellyfin.Server.Middleware.ResponseTimeMiddleware: Slow HTTP Response from "http://192.168.1.111:8096/Packages/Kodi Sync Queue?AssemblyGuid=771e19d653854cafb35c28a0e865cf63" to "192.168.1.106" in 0:00:01.0562705 with Status Code 200
+[2023-03-25 17:12:38.233 +01:00] [INF] [26] Emby.Server.Implementations.Updates.InstallationManager: Plugin "installed": "Kodi Sync Queue" "9.0.0.0"
+[2023-03-25 17:12:38.233 +01:00] [INF] [26] Emby.Server.Implementations.ApplicationHost: App needs to be restarted.
+[2023-03-25 17:12:38.234 +01:00] [WRN] [26] Jellyfin.Server.Middleware.ResponseTimeMiddleware: Slow HTTP Response from "http://192.168.1.111:8096/Packages/Installed/Kodi Sync Queue?AssemblyGuid=771e19d653854cafb35c28a0e865cf63&version=9.0.0.0" to "192.168.1.106" in 0:00:04.4000905 with Status Code 204
+[2023-03-25 17:12:42.120 +01:00] [WRN] [27] Jellyfin.Server.Middleware.ResponseTimeMiddleware: Slow HTTP Response from "http://192.168.1.111:8096/Packages?PackageType=UserInstalled" to "192.168.1.106" in 0:00:02.0775821 with Status Code 200
+[2023-03-25 17:12:45.895 +01:00] [WRN] [4] Jellyfin.Server.Middleware.ResponseTimeMiddleware: Slow HTTP Response from "http://192.168.1.111:8096/Packages/Playback Reporting?AssemblyGuid=5c53438191a343cb907a35aa02eb9d2c" to "192.168.1.106" in 0:00:01.951954 with Status Code 200
+[2023-03-25 17:12:51.377 +01:00] [INF] [27] Emby.Server.Implementations.Updates.InstallationManager: Plugin "installed": "Playback Reporting" "13.0.0.0"
+[2023-03-25 17:12:51.377 +01:00] [INF] [27] Emby.Server.Implementations.ApplicationHost: App needs to be restarted.
+[2023-03-25 17:12:51.378 +01:00] [WRN] [27] Jellyfin.Server.Middleware.ResponseTimeMiddleware: Slow HTTP Response from "http://192.168.1.111:8096/Packages/Installed/Playback Reporting?AssemblyGuid=5c53438191a343cb907a35aa02eb9d2c&version=13.0.0.0" to "192.168.1.106" in 0:00:02.6241686 with Status Code 204
+[2023-03-25 17:12:56.759 +01:00] [WRN] [11] Jellyfin.Server.Middleware.ResponseTimeMiddleware: Slow HTTP Response from "http://192.168.1.111:8096/Packages?PackageType=UserInstalled" to "192.168.1.106" in 0:00:03.415937 with Status Code 200
+[2023-03-25 17:13:13.835 +01:00] [INF] [3] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.1.106" closed
+[2023-03-25 17:14:32.546 +01:00] [INF] [41] Jellyfin.Server.Implementations.Users.UserManager: Authentication request for "admin" has succeeded.
+[2023-03-25 17:14:32.546 +01:00] [INF] [41] Emby.Server.Implementations.Session.SessionManager: Current/Max sessions for user "admin": 0/0
+[2023-03-25 17:14:32.559 +01:00] [INF] [41] Emby.Server.Implementations.Session.SessionManager: Creating new access token for user 875d0e94-4d6b-44f1-8455-77c56e4b1fb5
+[2023-03-25 17:17:11.389 +01:00] [INF] [2] Main: Received a SIGTERM signal, shutting down
+[2023-03-25 17:17:11.390 +01:00] [INF] [2] Main: Running query planner optimizations in the database... This might take a while
+[2023-03-25 17:17:11.792 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "CoreAppHost"
+[2023-03-25 17:17:11.793 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "EntryPoint"
+[2023-03-25 17:17:11.793 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "DlnaEntryPoint"
+[2023-03-25 17:17:11.794 +01:00] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: Disposing PlayToManager
+[2023-03-25 17:17:11.801 +01:00] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: Disposing DeviceDiscovery
+[2023-03-25 17:17:11.806 +01:00] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: Disposing SsdpCommunicationsServer
+[2023-03-25 17:17:11.806 +01:00] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: "SsdpCommunicationsServer" disposing _BroadcastListenSocket
+[2023-03-25 17:17:11.816 +01:00] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: "SsdpCommunicationsServer" Disposing 3 sendSockets
+[2023-03-25 17:17:11.816 +01:00] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: "SsdpCommunicationsServer" disposing sendSocket from "0.0.0.0"
+[2023-03-25 17:17:11.818 +01:00] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: "SsdpCommunicationsServer" disposing sendSocket from "172.21.0.6"
+[2023-03-25 17:17:11.818 +01:00] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: "SsdpCommunicationsServer" disposing sendSocket from "127.0.0.1"
+[2023-03-25 17:17:11.818 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "LibraryMonitorStartup"
+[2023-03-25 17:17:11.818 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "MusicBrainzAlbumProvider"
+[2023-03-25 17:17:11.818 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "LibraryChangedNotifier"
+[2023-03-25 17:17:11.826 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "UdpServerEntryPoint"
+[2023-03-25 17:17:11.836 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "UserDataChangeNotifier"
+[2023-03-25 17:17:11.837 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "SchedulesDirect"
+[2023-03-25 17:17:11.837 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "EmbyTV"
+[2023-03-25 17:17:11.838 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "DeviceAccessEntryPoint"
+[2023-03-25 17:17:11.838 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "ExternalPortForwarding"
+[2023-03-25 17:17:11.838 +01:00] [INF] [2] Emby.Server.Implementations.EntryPoints.ExternalPortForwarding: Stopping NAT discovery
+[2023-03-25 17:17:11.842 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "EntryPoint"
+[2023-03-25 17:17:11.842 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "RecordingNotifier"
+[2023-03-25 17:17:11.849 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "NotificationEntryPoint"
+[2023-03-25 17:19:30.561 +01:00] [INF] [1] Main: Jellyfin version: "10.8.9"
+[2023-03-25 17:19:30.636 +01:00] [INF] [1] Main: Environment Variables: ["[JELLYFIN_CONFIG_DIR, /config]", "[JELLYFIN_LOG_DIR, /config/log]", "[JELLYFIN_PublishedServerUrl, localhost]", "[JELLYFIN_WEB_DIR, /usr/share/jellyfin/web]", "[JELLYFIN_CACHE_DIR, /config/cache]", "[JELLYFIN_DATA_DIR, /config/data]"]
+[2023-03-25 17:19:30.639 +01:00] [INF] [1] Main: Arguments: ["/usr/lib/jellyfin/bin/jellyfin.dll", "--ffmpeg=/usr/lib/jellyfin-ffmpeg/ffmpeg"]
+[2023-03-25 17:19:30.642 +01:00] [INF] [1] Main: Operating system: "Linux"
+[2023-03-25 17:19:30.649 +01:00] [INF] [1] Main: Architecture: X64
+[2023-03-25 17:19:30.650 +01:00] [INF] [1] Main: 64-Bit Process: True
+[2023-03-25 17:19:30.657 +01:00] [INF] [1] Main: User Interactive: True
+[2023-03-25 17:19:30.658 +01:00] [INF] [1] Main: Processor count: 8
+[2023-03-25 17:19:30.658 +01:00] [INF] [1] Main: Program data path: "/config/data"
+[2023-03-25 17:19:30.658 +01:00] [INF] [1] Main: Web resources path: "/usr/share/jellyfin/web"
+[2023-03-25 17:19:30.658 +01:00] [INF] [1] Main: Application directory: "/usr/lib/jellyfin/bin/"
+[2023-03-25 17:19:30.798 +01:00] [INF] [1] Jellyfin.Server.Migrations.MigrationRunner: Applying migration '"CreateNetworkConfiguration"'
+[2023-03-25 17:19:30.802 +01:00] [INF] [1] Jellyfin.Server.Migrations.MigrationRunner: Migration '"CreateNetworkConfiguration"' applied successfully
+[2023-03-25 17:19:30.886 +01:00] [INF] [1] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Setting cache path: "/config/cache"
+[2023-03-25 17:19:30.966 +01:00] [INF] [1] Emby.Server.Implementations.ApplicationHost: Loading assemblies
+[2023-03-25 17:19:30.978 +01:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded assembly "ConfusedPolarBear.Plugin.IntroSkipper, Version=0.1.7.0, Culture=neutral, PublicKeyToken=null" from "/config/data/plugins/Intro Skipper_0.1.7.0/ConfusedPolarBear.Plugin.IntroSkipper.dll"
+[2023-03-25 17:19:30.989 +01:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded assembly "LiteDB, Version=5.0.12.0, Culture=neutral, PublicKeyToken=4ee40123013c9f27" from "/config/data/plugins/Kodi Sync Queue_9.0.0.0/LiteDB.dll"
+[2023-03-25 17:19:30.994 +01:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded assembly "Jellyfin.Plugin.KodiSyncQueue, Version=9.0.0.0, Culture=neutral, PublicKeyToken=null" from "/config/data/plugins/Kodi Sync Queue_9.0.0.0/Jellyfin.Plugin.KodiSyncQueue.dll"
+[2023-03-25 17:19:31.002 +01:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded assembly "Jellyfin.Plugin.PlaybackReporting, Version=13.0.0.0, Culture=neutral, PublicKeyToken=null" from "/config/data/plugins/Playback Reporting_13.0.0.0/Jellyfin.Plugin.PlaybackReporting.dll"
+[2023-03-25 17:19:31.007 +01:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded assembly "Trakt, Version=23.0.0.0, Culture=neutral, PublicKeyToken=null" from "/config/data/plugins/Trakt_23.0.0.0/Trakt.dll"
+[2023-03-25 17:19:31.152 +01:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-03-25 17:19:31.152 +01:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-03-25 17:19:31.153 +01:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-03-25 17:19:31.163 +01:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Using bind addresses: "[]"
+[2023-03-25 17:19:31.163 +01:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Using bind exclusions: "[]"
+[2023-03-25 17:19:35.050 +01:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "Intro Skipper" "0.1.7.0"
+[2023-03-25 17:19:35.063 +01:00] [INF] [1] Jellyfin.Plugin.KodiSyncQueue.KodiSyncQueuePlugin: KodiSyncQueue is starting...
+[2023-03-25 17:19:35.066 +01:00] [INF] [1] Jellyfin.Plugin.KodiSyncQueue.Data.DbRepo: Creating DB Repository...
+[2023-03-25 17:19:35.137 +01:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "Kodi Sync Queue" "9.0.0.0"
+[2023-03-25 17:19:35.150 +01:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "Playback Reporting" "13.0.0.0"
+[2023-03-25 17:19:35.160 +01:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "Trakt" "23.0.0.0"
+[2023-03-25 17:19:35.161 +01:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "TMDb" "10.8.9.0"
+[2023-03-25 17:19:35.162 +01:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "Studio Images" "10.8.9.0"
+[2023-03-25 17:19:35.163 +01:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "OMDb" "10.8.9.0"
+[2023-03-25 17:19:35.164 +01:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "MusicBrainz" "10.8.9.0"
+[2023-03-25 17:19:35.165 +01:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "AudioDB" "10.8.9.0"
+[2023-03-25 17:19:35.289 +01:00] [INF] [1] Main: Kestrel listening on "Any IP4 Address"
+[2023-03-25 17:19:35.416 +01:00] [WRN] [1] Microsoft.AspNetCore.DataProtection.Repositories.EphemeralXmlRepository: Using an in-memory repository. Keys will not be persisted to storage.
+[2023-03-25 17:19:35.417 +01:00] [WRN] [1] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager: Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+[2023-03-25 17:19:35.865 +01:00] [WRN] [1] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager: No XML encryptor configured. Key {7cd49419-7d2e-4156-9555-9e1839dbf7cb} may be persisted to storage in unencrypted form.
+[2023-03-25 17:19:35.933 +01:00] [INF] [1] Emby.Server.Implementations.ApplicationHost: Running startup tasks
+[2023-03-25 17:19:35.935 +01:00] [INF] [1] Jellyfin.Plugin.KodiSyncQueue.ScheduledTasks.RetentionTask: Retention task scheduled
+[2023-03-25 17:19:35.944 +01:00] [INF] [1] Jellyfin.Plugin.PlaybackReporting.TaskCleanDb: TaskCleanDb Loaded
+[2023-03-25 17:19:35.957 +01:00] [INF] [1] Jellyfin.Plugin.PlaybackReporting.TaskRunBackup: TaskRunBackup Loaded
+[2023-03-25 17:19:35.989 +01:00] [INF] [1] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Detect Introductions" set to fire at 2023-03-26 00:00:00.000 +01:00, which is 06:40:24.0106597 from now.
+[2023-03-25 17:19:35.991 +01:00] [INF] [1] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Remove Old Sync Data" set to fire at 2023-03-26 00:01:00.000 +01:00, which is 06:41:24.0089928 from now.
+[2023-03-25 17:19:35.994 +01:00] [INF] [1] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Playback Reporting Trim Db" set to fire at 2023-03-26 00:00:00.000 +01:00, which is 06:40:24.0051240 from now.
+[2023-03-25 17:19:36.024 +01:00] [INF] [1] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Extract Chapter Images" set to fire at 2023-03-26 02:00:00.000 +01:00, which is 08:40:23.9751561 from now.
+[2023-03-25 17:19:36.078 +01:00] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Found ffmpeg version "5.1.2"
+[2023-03-25 17:19:36.130 +01:00] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available "decoders": ["libdav1d", "av1", "av1_cuvid", "av1_qsv", "h264", "h264_qsv", "h264_cuvid", "hevc", "hevc_qsv", "hevc_cuvid", "mpeg2video", "mpeg2_qsv", "mpeg2_cuvid", "mpeg4", "mpeg4_cuvid", "msmpeg4", "vc1_qsv", "vc1_cuvid", "vp8", "libvpx", "vp8_cuvid", "vp8_qsv", "vp9", "libvpx-vp9", "vp9_cuvid", "vp9_qsv", "aac", "ac3", "flac", "mp3"]
+[2023-03-25 17:19:36.154 +01:00] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available "encoders": ["libx264", "h264_amf", "h264_nvenc", "h264_qsv", "h264_v4l2m2m", "h264_vaapi", "libx265", "hevc_amf", "hevc_nvenc", "hevc_qsv", "hevc_vaapi", "mpeg4", "msmpeg4", "libvpx", "libvpx-vp9", "aac", "libfdk_aac", "ac3", "flac", "libmp3lame", "libopus", "libvorbis", "srt"]
+[2023-03-25 17:19:36.198 +01:00] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available filters: ["deinterlace_qsv", "deinterlace_vaapi", "hwupload_cuda", "hwupload_vaapi", "overlay_opencl", "overlay_qsv", "overlay_vaapi", "overlay_cuda", "procamp_vaapi", "scale_cuda", "scale_opencl", "scale_qsv", "scale_vaapi", "tonemap_cuda", "tonemap_opencl", "tonemap_vaapi", "vpp_qsv", "yadif_cuda", "zscale", "alphasrc"]
+[2023-03-25 17:19:36.305 +01:00] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available hwaccel types: ["cuda", "vaapi", "qsv", "drm", "opencl", "vulkan"]
+[2023-03-25 17:19:36.425 +01:00] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: FFmpeg: "/usr/lib/jellyfin-ffmpeg/ffmpeg"
+[2023-03-25 17:19:36.437 +01:00] [INF] [1] Emby.Server.Implementations.ApplicationHost: ServerId: "0f6b3b653ccc4c65afbd78b2593d13e3"
+[2023-03-25 17:19:36.550 +01:00] [INF] [1] Emby.Server.Implementations.ApplicationHost: Executed all pre-startup entry points in 0:00:00.0957558
+[2023-03-25 17:19:36.550 +01:00] [INF] [1] Emby.Server.Implementations.ApplicationHost: Core startup complete
+[2023-03-25 17:19:36.567 +01:00] [INF] [1] ConfusedPolarBear.Plugin.IntroSkipper.Entrypoint: Running startup enqueue
+[2023-03-25 17:19:36.839 +01:00] [INF] [1] ConfusedPolarBear.Plugin.IntroSkipper.QueueManager: Running enqueue of items in library "Seriale" ("4d6940d6f6d42e00c21bf733e1ea48c7")
+[2023-03-25 17:19:36.872 +01:00] [INF] [1] Jellyfin.Plugin.PlaybackReporting.EventMonitorEntryPoint: EventMonitorEntryPoint Running
+[2023-03-25 17:19:36.881 +01:00] [INF] [1] Jellyfin.Plugin.PlaybackReporting.Data.ActivityRepository: Sqlite version: 3.38.3
+[2023-03-25 17:19:36.882 +01:00] [INF] [1] Jellyfin.Plugin.PlaybackReporting.Data.ActivityRepository: Sqlite compiler options: ATOMIC_INTRINSICS=1,COMPILER=gcc-7.5.0,DEFAULT_AUTOVACUUM,DEFAULT_CACHE_SIZE=-2000,DEFAULT_FILE_FORMAT=4,DEFAULT_FOREIGN_KEYS,DEFAULT_JOURNAL_SIZE_LIMIT=-1,DEFAULT_MMAP_SIZE=0,DEFAULT_PAGE_SIZE=4096,DEFAULT_PCACHE_INITSZ=20,DEFAULT_RECURSIVE_TRIGGERS,DEFAULT_SECTOR_SIZE=4096,DEFAULT_SYNCHRONOUS=2,DEFAULT_WAL_AUTOCHECKPOINT=1000,DEFAULT_WAL_SYNCHRONOUS=2,DEFAULT_WORKER_THREADS=0,ENABLE_COLUMN_METADATA,ENABLE_FTS3,ENABLE_FTS3_PARENTHESIS,ENABLE_FTS4,ENABLE_FTS5,ENABLE_RTREE,ENABLE_SNAPSHOT,MALLOC_SOFT_LIMIT=1024,MAX_ATTACHED=10,MAX_COLUMN=2000,MAX_COMPOUND_SELECT=500,MAX_DEFAULT_PAGE_SIZE=8192,MAX_EXPR_DEPTH=1000,MAX_FUNCTION_ARG=127,MAX_LENGTH=1000000000,MAX_LIKE_PATTERN_LENGTH=50000,MAX_MMAP_SIZE=0x7fff0000,MAX_PAGE_COUNT=1073741823,MAX_PAGE_SIZE=65536,MAX_SQL_LENGTH=1000000000,MAX_TRIGGER_DEPTH=1000,MAX_VARIABLE_NUMBER=32766,MAX_VDBE_OP=250000000,MAX_WORKER_THREADS=8,MUTEX_PTHREADS,SYSTEM_MALLOC,TEMP_STORE=1,THREADSAFE=1
+[2023-03-25 17:19:36.886 +01:00] [INF] [1] Jellyfin.Plugin.PlaybackReporting.Data.ActivityRepository: Default journal_mode for "/config/data/data/playback_reporting.db" is "delete"
+[2023-03-25 17:19:36.888 +01:00] [INF] [1] Jellyfin.Plugin.PlaybackReporting.Data.ActivityRepository: Initialize PlaybackActivity Repository
+[2023-03-25 17:19:36.888 +01:00] [INF] [1] Jellyfin.Plugin.PlaybackReporting.Data.ActivityRepository: PlaybackActivity table schema miss match!
+[2023-03-25 17:19:36.888 +01:00] [INF] [1] Jellyfin.Plugin.PlaybackReporting.Data.ActivityRepository: Expected : "datecreated:datetime|userid:text|itemid:text|itemtype:text|itemname:text|playbackmethod:text|clientname:text|devicename:text|playduration:int"
+[2023-03-25 17:19:36.888 +01:00] [INF] [1] Jellyfin.Plugin.PlaybackReporting.Data.ActivityRepository: Received : ""
+[2023-03-25 17:19:36.888 +01:00] [INF] [1] Jellyfin.Plugin.PlaybackReporting.Data.ActivityRepository: Dropping and recreating PlaybackActivity table
+[2023-03-25 17:19:36.961 +01:00] [INF] [1] Emby.Server.Implementations.EntryPoints.ExternalPortForwarding: Starting NAT discovery
+[2023-03-25 17:19:36.968 +01:00] [INF] [10] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/data/movies"
+[2023-03-25 17:19:36.987 +01:00] [INF] [8] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/data/tvshows"
+[2023-03-25 17:19:37.028 +01:00] [INF] [1] Emby.Server.Implementations.ApplicationHost: Executed all post-startup entry points in 0:00:00.4773903
+[2023-03-25 17:19:37.028 +01:00] [INF] [1] Main: Startup complete 0:00:06.6944175
+[2023-03-25 17:19:39.041 +01:00] [INF] [11] Emby.Server.Implementations.ScheduledTasks.TaskManager: "StartupTrigger" fired for task: "Update Plugins"
+[2023-03-25 17:19:39.044 +01:00] [INF] [11] Emby.Server.Implementations.ScheduledTasks.TaskManager: Queuing task "PluginUpdateTask"
+[2023-03-25 17:19:39.056 +01:00] [INF] [19] Emby.Server.Implementations.ScheduledTasks.TaskManager: Executing "Update Plugins"
+[2023-03-25 17:19:42.505 +01:00] [INF] [20] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Update Plugins" Completed after 0 minute(s) and 3 seconds
+[2023-03-25 17:19:42.552 +01:00] [INF] [20] Emby.Server.Implementations.ScheduledTasks.TaskManager: ExecuteQueuedTasks
+[2023-03-25 17:23:27.379 +01:00] [INF] [38] Emby.Server.Implementations.IO.LibraryMonitor: "tvshows" ("/data/tvshows") will be refreshed.
+[2023-03-25 17:23:41.818 +01:00] [INF] [40] Emby.Server.Implementations.IO.LibraryMonitor: "movies" ("/data/movies") will be refreshed.
+[2023-03-25 17:25:42.708 +01:00] [INF] [2] Main: Received a SIGTERM signal, shutting down
+[2023-03-25 17:25:42.709 +01:00] [INF] [2] Main: Running query planner optimizations in the database... This might take a while
+[2023-03-25 17:25:42.788 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "CoreAppHost"
+[2023-03-25 17:25:42.805 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "UserSyncNotification"
+[2023-03-25 17:25:42.809 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "UserDataChangeNotifier"
+[2023-03-25 17:25:42.809 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "ServerMediator"
+[2023-03-25 17:25:42.812 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "EventMonitorEntryPoint"
+[2023-03-25 17:25:42.812 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "NotificationEntryPoint"
+[2023-03-25 17:25:42.813 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "LibrarySyncNotification"
+[2023-03-25 17:25:42.813 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "MusicBrainzAlbumProvider"
+[2023-03-25 17:25:42.815 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "ExternalPortForwarding"
+[2023-03-25 17:25:42.815 +01:00] [INF] [2] Emby.Server.Implementations.EntryPoints.ExternalPortForwarding: Stopping NAT discovery
+[2023-03-25 17:25:42.829 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "EntryPoint"
+[2023-03-25 17:25:42.829 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "LibraryMonitorStartup"
+[2023-03-25 17:25:42.829 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "DlnaEntryPoint"
+[2023-03-25 17:25:42.831 +01:00] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: Disposing PlayToManager
+[2023-03-25 17:25:42.832 +01:00] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: Disposing DeviceDiscovery
+[2023-03-25 17:25:42.833 +01:00] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: Disposing SsdpCommunicationsServer
+[2023-03-25 17:25:42.837 +01:00] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: "SsdpCommunicationsServer" disposing _BroadcastListenSocket
+[2023-03-25 17:25:42.840 +01:00] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: "SsdpCommunicationsServer" Disposing 3 sendSockets
+[2023-03-25 17:25:42.841 +01:00] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: "SsdpCommunicationsServer" disposing sendSocket from "0.0.0.0"
+[2023-03-25 17:25:42.841 +01:00] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: "SsdpCommunicationsServer" disposing sendSocket from "172.22.0.3"
+[2023-03-25 17:25:42.841 +01:00] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: "SsdpCommunicationsServer" disposing sendSocket from "127.0.0.1"
+[2023-03-25 17:25:42.841 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "UdpServerEntryPoint"
+[2023-03-25 17:25:42.841 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "Entrypoint"
+[2023-03-25 17:25:42.841 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "RecordingNotifier"
+[2023-03-25 17:25:42.843 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "LibraryChangedNotifier"
+[2023-03-25 17:25:42.844 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "AutoSkip"
+[2023-03-25 17:25:42.844 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "EntryPoint"
+[2023-03-25 17:25:42.844 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "EmbyTV"
+[2023-03-25 17:25:42.845 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "SchedulesDirect"
+[2023-03-25 17:25:42.845 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "DeviceAccessEntryPoint"
+[2023-03-25 17:26:23.994 +01:00] [INF] [1] Main: Jellyfin version: "10.8.9"
+[2023-03-25 17:26:24.035 +01:00] [INF] [1] Main: Environment Variables: ["[JELLYFIN_LOG_DIR, /config/log]", "[JELLYFIN_CACHE_DIR, /config/cache]", "[JELLYFIN_DATA_DIR, /config/data]", "[JELLYFIN_CONFIG_DIR, /config]", "[JELLYFIN_PublishedServerUrl, localhost]", "[JELLYFIN_WEB_DIR, /usr/share/jellyfin/web]"]
+[2023-03-25 17:26:24.038 +01:00] [INF] [1] Main: Arguments: ["/usr/lib/jellyfin/bin/jellyfin.dll", "--ffmpeg=/usr/lib/jellyfin-ffmpeg/ffmpeg"]
+[2023-03-25 17:26:24.042 +01:00] [INF] [1] Main: Operating system: "Linux"
+[2023-03-25 17:26:24.042 +01:00] [INF] [1] Main: Architecture: X64
+[2023-03-25 17:26:24.044 +01:00] [INF] [1] Main: 64-Bit Process: True
+[2023-03-25 17:26:24.044 +01:00] [INF] [1] Main: User Interactive: True
+[2023-03-25 17:26:24.044 +01:00] [INF] [1] Main: Processor count: 8
+[2023-03-25 17:26:24.044 +01:00] [INF] [1] Main: Program data path: "/config/data"
+[2023-03-25 17:26:24.044 +01:00] [INF] [1] Main: Web resources path: "/usr/share/jellyfin/web"
+[2023-03-25 17:26:24.044 +01:00] [INF] [1] Main: Application directory: "/usr/lib/jellyfin/bin/"
+[2023-03-25 17:26:24.232 +01:00] [INF] [1] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Setting cache path: "/config/cache"
+[2023-03-25 17:26:24.310 +01:00] [INF] [1] Emby.Server.Implementations.ApplicationHost: Loading assemblies
+[2023-03-25 17:26:24.331 +01:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded assembly "ConfusedPolarBear.Plugin.IntroSkipper, Version=0.1.7.0, Culture=neutral, PublicKeyToken=null" from "/config/data/plugins/Intro Skipper_0.1.7.0/ConfusedPolarBear.Plugin.IntroSkipper.dll"
+[2023-03-25 17:26:24.338 +01:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded assembly "LiteDB, Version=5.0.12.0, Culture=neutral, PublicKeyToken=4ee40123013c9f27" from "/config/data/plugins/Kodi Sync Queue_9.0.0.0/LiteDB.dll"
+[2023-03-25 17:26:24.345 +01:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded assembly "Jellyfin.Plugin.KodiSyncQueue, Version=9.0.0.0, Culture=neutral, PublicKeyToken=null" from "/config/data/plugins/Kodi Sync Queue_9.0.0.0/Jellyfin.Plugin.KodiSyncQueue.dll"
+[2023-03-25 17:26:24.349 +01:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded assembly "Jellyfin.Plugin.PlaybackReporting, Version=13.0.0.0, Culture=neutral, PublicKeyToken=null" from "/config/data/plugins/Playback Reporting_13.0.0.0/Jellyfin.Plugin.PlaybackReporting.dll"
+[2023-03-25 17:26:24.356 +01:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded assembly "Trakt, Version=23.0.0.0, Culture=neutral, PublicKeyToken=null" from "/config/data/plugins/Trakt_23.0.0.0/Trakt.dll"
+[2023-03-25 17:26:24.458 +01:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-03-25 17:26:24.461 +01:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-03-25 17:26:24.469 +01:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-03-25 17:26:24.484 +01:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Using bind addresses: "[]"
+[2023-03-25 17:26:24.485 +01:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Using bind exclusions: "[]"
+[2023-03-25 17:26:27.295 +01:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "Intro Skipper" "0.1.7.0"
+[2023-03-25 17:26:27.313 +01:00] [INF] [1] Jellyfin.Plugin.KodiSyncQueue.KodiSyncQueuePlugin: KodiSyncQueue is starting...
+[2023-03-25 17:26:27.315 +01:00] [INF] [1] Jellyfin.Plugin.KodiSyncQueue.Data.DbRepo: Creating DB Repository...
+[2023-03-25 17:26:27.357 +01:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "Kodi Sync Queue" "9.0.0.0"
+[2023-03-25 17:26:27.365 +01:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "Playback Reporting" "13.0.0.0"
+[2023-03-25 17:26:27.378 +01:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "Trakt" "23.0.0.0"
+[2023-03-25 17:26:27.406 +01:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "TMDb" "10.8.9.0"
+[2023-03-25 17:26:27.409 +01:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "Studio Images" "10.8.9.0"
+[2023-03-25 17:26:27.409 +01:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "OMDb" "10.8.9.0"
+[2023-03-25 17:26:27.409 +01:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "MusicBrainz" "10.8.9.0"
+[2023-03-25 17:26:27.409 +01:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "AudioDB" "10.8.9.0"
+[2023-03-25 17:26:27.472 +01:00] [INF] [1] Main: Kestrel listening on "Any IP4 Address"
+[2023-03-25 17:26:27.545 +01:00] [WRN] [1] Microsoft.AspNetCore.DataProtection.Repositories.EphemeralXmlRepository: Using an in-memory repository. Keys will not be persisted to storage.
+[2023-03-25 17:26:27.545 +01:00] [WRN] [1] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager: Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+[2023-03-25 17:26:27.843 +01:00] [WRN] [1] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager: No XML encryptor configured. Key {0bbd619d-9e1c-46a7-85da-015cf32010b8} may be persisted to storage in unencrypted form.
+[2023-03-25 17:26:27.872 +01:00] [INF] [1] Emby.Server.Implementations.ApplicationHost: Running startup tasks
+[2023-03-25 17:26:27.878 +01:00] [INF] [1] Jellyfin.Plugin.KodiSyncQueue.ScheduledTasks.RetentionTask: Retention task scheduled
+[2023-03-25 17:26:27.886 +01:00] [INF] [1] Jellyfin.Plugin.PlaybackReporting.TaskCleanDb: TaskCleanDb Loaded
+[2023-03-25 17:26:27.889 +01:00] [INF] [1] Jellyfin.Plugin.PlaybackReporting.TaskRunBackup: TaskRunBackup Loaded
+[2023-03-25 17:26:27.901 +01:00] [INF] [1] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Detect Introductions" set to fire at 2023-03-26 00:00:00.000 +01:00, which is 06:33:32.0988979 from now.
+[2023-03-25 17:26:27.902 +01:00] [INF] [1] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Remove Old Sync Data" set to fire at 2023-03-26 00:01:00.000 +01:00, which is 06:34:32.0973305 from now.
+[2023-03-25 17:26:27.903 +01:00] [INF] [1] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Playback Reporting Trim Db" set to fire at 2023-03-26 00:00:00.000 +01:00, which is 06:33:32.0966993 from now.
+[2023-03-25 17:26:27.929 +01:00] [INF] [1] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Extract Chapter Images" set to fire at 2023-03-26 02:00:00.000 +01:00, which is 08:33:32.0704868 from now.
+[2023-03-25 17:26:27.980 +01:00] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Found ffmpeg version "5.1.2"
+[2023-03-25 17:26:28.040 +01:00] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available "decoders": ["libdav1d", "av1", "av1_cuvid", "av1_qsv", "h264", "h264_qsv", "h264_cuvid", "hevc", "hevc_qsv", "hevc_cuvid", "mpeg2video", "mpeg2_qsv", "mpeg2_cuvid", "mpeg4", "mpeg4_cuvid", "msmpeg4", "vc1_qsv", "vc1_cuvid", "vp8", "libvpx", "vp8_cuvid", "vp8_qsv", "vp9", "libvpx-vp9", "vp9_cuvid", "vp9_qsv", "aac", "ac3", "flac", "mp3"]
+[2023-03-25 17:26:28.063 +01:00] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available "encoders": ["libx264", "h264_amf", "h264_nvenc", "h264_qsv", "h264_v4l2m2m", "h264_vaapi", "libx265", "hevc_amf", "hevc_nvenc", "hevc_qsv", "hevc_vaapi", "mpeg4", "msmpeg4", "libvpx", "libvpx-vp9", "aac", "libfdk_aac", "ac3", "flac", "libmp3lame", "libopus", "libvorbis", "srt"]
+[2023-03-25 17:26:28.080 +01:00] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available filters: ["deinterlace_qsv", "deinterlace_vaapi", "hwupload_cuda", "hwupload_vaapi", "overlay_opencl", "overlay_qsv", "overlay_vaapi", "overlay_cuda", "procamp_vaapi", "scale_cuda", "scale_opencl", "scale_qsv", "scale_vaapi", "tonemap_cuda", "tonemap_opencl", "tonemap_vaapi", "vpp_qsv", "yadif_cuda", "zscale", "alphasrc"]
+[2023-03-25 17:26:28.213 +01:00] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available hwaccel types: ["cuda", "vaapi", "qsv", "drm", "opencl", "vulkan"]
+[2023-03-25 17:26:28.345 +01:00] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: FFmpeg: "/usr/lib/jellyfin-ffmpeg/ffmpeg"
+[2023-03-25 17:26:28.348 +01:00] [INF] [1] Emby.Server.Implementations.ApplicationHost: ServerId: "0f6b3b653ccc4c65afbd78b2593d13e3"
+[2023-03-25 17:26:28.466 +01:00] [INF] [1] Emby.Server.Implementations.ApplicationHost: Executed all pre-startup entry points in 0:00:00.1017337
+[2023-03-25 17:26:28.469 +01:00] [INF] [1] Emby.Server.Implementations.ApplicationHost: Core startup complete
+[2023-03-25 17:26:28.497 +01:00] [INF] [1] ConfusedPolarBear.Plugin.IntroSkipper.Entrypoint: Running startup enqueue
+[2023-03-25 17:26:28.794 +01:00] [INF] [1] ConfusedPolarBear.Plugin.IntroSkipper.QueueManager: Running enqueue of items in library "Seriale" ("4d6940d6f6d42e00c21bf733e1ea48c7")
+[2023-03-25 17:26:28.816 +01:00] [INF] [1] Jellyfin.Plugin.PlaybackReporting.EventMonitorEntryPoint: EventMonitorEntryPoint Running
+[2023-03-25 17:26:28.824 +01:00] [INF] [1] Jellyfin.Plugin.PlaybackReporting.Data.ActivityRepository: Sqlite version: 3.38.3
+[2023-03-25 17:26:28.825 +01:00] [INF] [1] Jellyfin.Plugin.PlaybackReporting.Data.ActivityRepository: Sqlite compiler options: ATOMIC_INTRINSICS=1,COMPILER=gcc-7.5.0,DEFAULT_AUTOVACUUM,DEFAULT_CACHE_SIZE=-2000,DEFAULT_FILE_FORMAT=4,DEFAULT_FOREIGN_KEYS,DEFAULT_JOURNAL_SIZE_LIMIT=-1,DEFAULT_MMAP_SIZE=0,DEFAULT_PAGE_SIZE=4096,DEFAULT_PCACHE_INITSZ=20,DEFAULT_RECURSIVE_TRIGGERS,DEFAULT_SECTOR_SIZE=4096,DEFAULT_SYNCHRONOUS=2,DEFAULT_WAL_AUTOCHECKPOINT=1000,DEFAULT_WAL_SYNCHRONOUS=2,DEFAULT_WORKER_THREADS=0,ENABLE_COLUMN_METADATA,ENABLE_FTS3,ENABLE_FTS3_PARENTHESIS,ENABLE_FTS4,ENABLE_FTS5,ENABLE_RTREE,ENABLE_SNAPSHOT,MALLOC_SOFT_LIMIT=1024,MAX_ATTACHED=10,MAX_COLUMN=2000,MAX_COMPOUND_SELECT=500,MAX_DEFAULT_PAGE_SIZE=8192,MAX_EXPR_DEPTH=1000,MAX_FUNCTION_ARG=127,MAX_LENGTH=1000000000,MAX_LIKE_PATTERN_LENGTH=50000,MAX_MMAP_SIZE=0x7fff0000,MAX_PAGE_COUNT=1073741823,MAX_PAGE_SIZE=65536,MAX_SQL_LENGTH=1000000000,MAX_TRIGGER_DEPTH=1000,MAX_VARIABLE_NUMBER=32766,MAX_VDBE_OP=250000000,MAX_WORKER_THREADS=8,MUTEX_PTHREADS,SYSTEM_MALLOC,TEMP_STORE=1,THREADSAFE=1
+[2023-03-25 17:26:28.829 +01:00] [INF] [1] Jellyfin.Plugin.PlaybackReporting.Data.ActivityRepository: Default journal_mode for "/config/data/data/playback_reporting.db" is "delete"
+[2023-03-25 17:26:28.829 +01:00] [INF] [1] Jellyfin.Plugin.PlaybackReporting.Data.ActivityRepository: Initialize PlaybackActivity Repository
+[2023-03-25 17:26:28.830 +01:00] [INF] [1] Jellyfin.Plugin.PlaybackReporting.Data.ActivityRepository: PlaybackActivity table schema OK
+[2023-03-25 17:26:28.830 +01:00] [INF] [1] Jellyfin.Plugin.PlaybackReporting.Data.ActivityRepository: Expected : "datecreated:datetime|userid:text|itemid:text|itemtype:text|itemname:text|playbackmethod:text|clientname:text|devicename:text|playduration:int"
+[2023-03-25 17:26:28.830 +01:00] [INF] [1] Jellyfin.Plugin.PlaybackReporting.Data.ActivityRepository: Received : "datecreated:datetime|userid:text|itemid:text|itemtype:text|itemname:text|playbackmethod:text|clientname:text|devicename:text|playduration:int"
+[2023-03-25 17:26:28.871 +01:00] [INF] [1] Emby.Server.Implementations.EntryPoints.ExternalPortForwarding: Starting NAT discovery
+[2023-03-25 17:26:28.885 +01:00] [INF] [15] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/data/tvshows"
+[2023-03-25 17:26:28.885 +01:00] [INF] [14] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/data/movies"
+[2023-03-25 17:26:28.934 +01:00] [INF] [1] Emby.Server.Implementations.ApplicationHost: Executed all post-startup entry points in 0:00:00.4648373
+[2023-03-25 17:26:28.938 +01:00] [INF] [1] Main: Startup complete 0:00:05.1720027
+[2023-03-25 17:26:30.955 +01:00] [INF] [15] Emby.Server.Implementations.ScheduledTasks.TaskManager: "StartupTrigger" fired for task: "Update Plugins"
+[2023-03-25 17:26:30.956 +01:00] [INF] [15] Emby.Server.Implementations.ScheduledTasks.TaskManager: Queuing task "PluginUpdateTask"
+[2023-03-25 17:26:30.961 +01:00] [INF] [8] Emby.Server.Implementations.ScheduledTasks.TaskManager: Executing "Update Plugins"
+[2023-03-25 17:26:33.107 +01:00] [INF] [10] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Update Plugins" Completed after 0 minute(s) and 2 seconds
+[2023-03-25 17:26:33.113 +01:00] [INF] [10] Emby.Server.Implementations.ScheduledTasks.TaskManager: ExecuteQueuedTasks
+[2023-03-25 17:44:40.758 +01:00] [INF] [2] Main: Received a SIGTERM signal, shutting down
+[2023-03-25 17:44:40.769 +01:00] [INF] [2] Main: Running query planner optimizations in the database... This might take a while
+[2023-03-25 17:44:40.795 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "CoreAppHost"
+[2023-03-25 17:44:40.799 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "EventMonitorEntryPoint"
+[2023-03-25 17:44:40.799 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "DlnaEntryPoint"
+[2023-03-25 17:44:40.800 +01:00] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: Disposing PlayToManager
+[2023-03-25 17:44:40.800 +01:00] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: Disposing DeviceDiscovery
+[2023-03-25 17:44:40.801 +01:00] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: Disposing SsdpCommunicationsServer
+[2023-03-25 17:44:40.810 +01:00] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: "SsdpCommunicationsServer" disposing _BroadcastListenSocket
+[2023-03-25 17:44:40.846 +01:00] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: "SsdpCommunicationsServer" Disposing 3 sendSockets
+[2023-03-25 17:44:40.850 +01:00] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: "SsdpCommunicationsServer" disposing sendSocket from "0.0.0.0"
+[2023-03-25 17:44:40.862 +01:00] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: "SsdpCommunicationsServer" disposing sendSocket from "172.23.0.10"
+[2023-03-25 17:44:40.862 +01:00] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: "SsdpCommunicationsServer" disposing sendSocket from "127.0.0.1"
+[2023-03-25 17:44:40.863 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "SchedulesDirect"
+[2023-03-25 17:44:40.869 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "EntryPoint"
+[2023-03-25 17:44:40.869 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "ServerMediator"
+[2023-03-25 17:44:40.871 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "EntryPoint"
+[2023-03-25 17:44:40.871 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "UserSyncNotification"
+[2023-03-25 17:44:40.871 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "LibraryChangedNotifier"
+[2023-03-25 17:44:40.873 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "DeviceAccessEntryPoint"
+[2023-03-25 17:44:40.873 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "ExternalPortForwarding"
+[2023-03-25 17:44:40.873 +01:00] [INF] [2] Emby.Server.Implementations.EntryPoints.ExternalPortForwarding: Stopping NAT discovery
+[2023-03-25 17:44:40.902 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "NotificationEntryPoint"
+[2023-03-25 17:44:40.903 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "EmbyTV"
+[2023-03-25 17:44:40.904 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "UserDataChangeNotifier"
+[2023-03-25 17:44:40.906 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "LibrarySyncNotification"
+[2023-03-25 17:44:40.910 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "AutoSkip"
+[2023-03-25 17:44:40.910 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "UdpServerEntryPoint"
+[2023-03-25 17:44:40.912 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "MusicBrainzAlbumProvider"
+[2023-03-25 17:44:40.912 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "RecordingNotifier"
+[2023-03-25 17:44:40.913 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "Entrypoint"
+[2023-03-25 17:44:40.915 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "LibraryMonitorStartup"
+[2023-03-25 17:45:00.454 +01:00] [INF] [1] Main: Jellyfin version: "10.8.9"
+[2023-03-25 17:45:00.505 +01:00] [INF] [1] Main: Environment Variables: ["[JELLYFIN_WEB_DIR, /usr/share/jellyfin/web]", "[JELLYFIN_PublishedServerUrl, localhost]", "[JELLYFIN_CACHE_DIR, /config/cache]", "[JELLYFIN_DATA_DIR, /config/data]", "[JELLYFIN_CONFIG_DIR, /config]", "[JELLYFIN_LOG_DIR, /config/log]"]
+[2023-03-25 17:45:00.513 +01:00] [INF] [1] Main: Arguments: ["/usr/lib/jellyfin/bin/jellyfin.dll", "--ffmpeg=/usr/lib/jellyfin-ffmpeg/ffmpeg"]
+[2023-03-25 17:45:00.514 +01:00] [INF] [1] Main: Operating system: "Linux"
+[2023-03-25 17:45:00.514 +01:00] [INF] [1] Main: Architecture: X64
+[2023-03-25 17:45:00.516 +01:00] [INF] [1] Main: 64-Bit Process: True
+[2023-03-25 17:45:00.516 +01:00] [INF] [1] Main: User Interactive: True
+[2023-03-25 17:45:00.516 +01:00] [INF] [1] Main: Processor count: 8
+[2023-03-25 17:45:00.516 +01:00] [INF] [1] Main: Program data path: "/config/data"
+[2023-03-25 17:45:00.517 +01:00] [INF] [1] Main: Web resources path: "/usr/share/jellyfin/web"
+[2023-03-25 17:45:00.517 +01:00] [INF] [1] Main: Application directory: "/usr/lib/jellyfin/bin/"
+[2023-03-25 17:45:00.806 +01:00] [INF] [1] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Setting cache path: "/config/cache"
+[2023-03-25 17:45:00.909 +01:00] [INF] [1] Emby.Server.Implementations.ApplicationHost: Loading assemblies
+[2023-03-25 17:45:00.930 +01:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded assembly "ConfusedPolarBear.Plugin.IntroSkipper, Version=0.1.7.0, Culture=neutral, PublicKeyToken=null" from "/config/data/plugins/Intro Skipper_0.1.7.0/ConfusedPolarBear.Plugin.IntroSkipper.dll"
+[2023-03-25 17:45:00.942 +01:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded assembly "LiteDB, Version=5.0.12.0, Culture=neutral, PublicKeyToken=4ee40123013c9f27" from "/config/data/plugins/Kodi Sync Queue_9.0.0.0/LiteDB.dll"
+[2023-03-25 17:45:00.944 +01:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded assembly "Jellyfin.Plugin.KodiSyncQueue, Version=9.0.0.0, Culture=neutral, PublicKeyToken=null" from "/config/data/plugins/Kodi Sync Queue_9.0.0.0/Jellyfin.Plugin.KodiSyncQueue.dll"
+[2023-03-25 17:45:00.950 +01:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded assembly "Jellyfin.Plugin.PlaybackReporting, Version=13.0.0.0, Culture=neutral, PublicKeyToken=null" from "/config/data/plugins/Playback Reporting_13.0.0.0/Jellyfin.Plugin.PlaybackReporting.dll"
+[2023-03-25 17:45:00.964 +01:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded assembly "Trakt, Version=23.0.0.0, Culture=neutral, PublicKeyToken=null" from "/config/data/plugins/Trakt_23.0.0.0/Trakt.dll"
+[2023-03-25 17:45:01.122 +01:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-03-25 17:45:01.134 +01:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-03-25 17:45:01.142 +01:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-03-25 17:45:01.156 +01:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Using bind addresses: "[]"
+[2023-03-25 17:45:01.157 +01:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Using bind exclusions: "[]"
+[2023-03-25 17:45:03.881 +01:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "Intro Skipper" "0.1.7.0"
+[2023-03-25 17:45:03.885 +01:00] [INF] [1] Jellyfin.Plugin.KodiSyncQueue.KodiSyncQueuePlugin: KodiSyncQueue is starting...
+[2023-03-25 17:45:03.885 +01:00] [INF] [1] Jellyfin.Plugin.KodiSyncQueue.Data.DbRepo: Creating DB Repository...
+[2023-03-25 17:45:03.976 +01:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "Kodi Sync Queue" "9.0.0.0"
+[2023-03-25 17:45:03.979 +01:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "Playback Reporting" "13.0.0.0"
+[2023-03-25 17:45:03.981 +01:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "Trakt" "23.0.0.0"
+[2023-03-25 17:45:03.986 +01:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "TMDb" "10.8.9.0"
+[2023-03-25 17:45:03.989 +01:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "Studio Images" "10.8.9.0"
+[2023-03-25 17:45:03.990 +01:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "OMDb" "10.8.9.0"
+[2023-03-25 17:45:03.994 +01:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "MusicBrainz" "10.8.9.0"
+[2023-03-25 17:45:03.998 +01:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "AudioDB" "10.8.9.0"
+[2023-03-25 17:45:04.156 +01:00] [INF] [1] Main: Kestrel listening on "Any IP4 Address"
+[2023-03-25 17:45:04.243 +01:00] [WRN] [1] Microsoft.AspNetCore.DataProtection.Repositories.EphemeralXmlRepository: Using an in-memory repository. Keys will not be persisted to storage.
+[2023-03-25 17:45:04.244 +01:00] [WRN] [1] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager: Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+[2023-03-25 17:45:04.662 +01:00] [WRN] [1] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager: No XML encryptor configured. Key {87206618-20c0-4973-9ef8-5cef7c8e60de} may be persisted to storage in unencrypted form.
+[2023-03-25 17:45:04.757 +01:00] [INF] [1] Emby.Server.Implementations.ApplicationHost: Running startup tasks
+[2023-03-25 17:45:04.766 +01:00] [INF] [1] Jellyfin.Plugin.KodiSyncQueue.ScheduledTasks.RetentionTask: Retention task scheduled
+[2023-03-25 17:45:04.773 +01:00] [INF] [1] Jellyfin.Plugin.PlaybackReporting.TaskCleanDb: TaskCleanDb Loaded
+[2023-03-25 17:45:04.778 +01:00] [INF] [1] Jellyfin.Plugin.PlaybackReporting.TaskRunBackup: TaskRunBackup Loaded
+[2023-03-25 17:45:04.794 +01:00] [INF] [1] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Detect Introductions" set to fire at 2023-03-26 00:00:00.000 +01:00, which is 06:14:55.2057548 from now.
+[2023-03-25 17:45:04.802 +01:00] [INF] [1] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Remove Old Sync Data" set to fire at 2023-03-26 00:01:00.000 +01:00, which is 06:15:55.1978234 from now.
+[2023-03-25 17:45:04.802 +01:00] [INF] [1] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Playback Reporting Trim Db" set to fire at 2023-03-26 00:00:00.000 +01:00, which is 06:14:55.1972699 from now.
+[2023-03-25 17:45:04.845 +01:00] [INF] [1] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Extract Chapter Images" set to fire at 2023-03-26 02:00:00.000 +01:00, which is 08:14:55.1548997 from now.
+[2023-03-25 17:45:04.980 +01:00] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Found ffmpeg version "5.1.2"
+[2023-03-25 17:45:05.071 +01:00] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available "decoders": ["libdav1d", "av1", "av1_cuvid", "av1_qsv", "h264", "h264_qsv", "h264_cuvid", "hevc", "hevc_qsv", "hevc_cuvid", "mpeg2video", "mpeg2_qsv", "mpeg2_cuvid", "mpeg4", "mpeg4_cuvid", "msmpeg4", "vc1_qsv", "vc1_cuvid", "vp8", "libvpx", "vp8_cuvid", "vp8_qsv", "vp9", "libvpx-vp9", "vp9_cuvid", "vp9_qsv", "aac", "ac3", "flac", "mp3"]
+[2023-03-25 17:45:05.113 +01:00] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available "encoders": ["libx264", "h264_amf", "h264_nvenc", "h264_qsv", "h264_v4l2m2m", "h264_vaapi", "libx265", "hevc_amf", "hevc_nvenc", "hevc_qsv", "hevc_vaapi", "mpeg4", "msmpeg4", "libvpx", "libvpx-vp9", "aac", "libfdk_aac", "ac3", "flac", "libmp3lame", "libopus", "libvorbis", "srt"]
+[2023-03-25 17:45:05.149 +01:00] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available filters: ["deinterlace_qsv", "deinterlace_vaapi", "hwupload_cuda", "hwupload_vaapi", "overlay_opencl", "overlay_qsv", "overlay_vaapi", "overlay_cuda", "procamp_vaapi", "scale_cuda", "scale_opencl", "scale_qsv", "scale_vaapi", "tonemap_cuda", "tonemap_opencl", "tonemap_vaapi", "vpp_qsv", "yadif_cuda", "zscale", "alphasrc"]
+[2023-03-25 17:45:05.325 +01:00] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available hwaccel types: ["cuda", "vaapi", "qsv", "drm", "opencl", "vulkan"]
+[2023-03-25 17:45:05.525 +01:00] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: FFmpeg: "/usr/lib/jellyfin-ffmpeg/ffmpeg"
+[2023-03-25 17:45:05.529 +01:00] [INF] [1] Emby.Server.Implementations.ApplicationHost: ServerId: "0f6b3b653ccc4c65afbd78b2593d13e3"
+[2023-03-25 17:45:05.671 +01:00] [INF] [1] Emby.Server.Implementations.ApplicationHost: Executed all pre-startup entry points in 0:00:00.1184186
+[2023-03-25 17:45:05.672 +01:00] [INF] [1] Emby.Server.Implementations.ApplicationHost: Core startup complete
+[2023-03-25 17:45:05.694 +01:00] [INF] [1] ConfusedPolarBear.Plugin.IntroSkipper.Entrypoint: Running startup enqueue
+[2023-03-25 17:45:05.942 +01:00] [INF] [1] ConfusedPolarBear.Plugin.IntroSkipper.QueueManager: Running enqueue of items in library "Seriale" ("4d6940d6f6d42e00c21bf733e1ea48c7")
+[2023-03-25 17:45:05.965 +01:00] [INF] [1] Jellyfin.Plugin.PlaybackReporting.EventMonitorEntryPoint: EventMonitorEntryPoint Running
+[2023-03-25 17:45:05.975 +01:00] [INF] [1] Jellyfin.Plugin.PlaybackReporting.Data.ActivityRepository: Sqlite version: 3.38.3
+[2023-03-25 17:45:05.976 +01:00] [INF] [1] Jellyfin.Plugin.PlaybackReporting.Data.ActivityRepository: Sqlite compiler options: ATOMIC_INTRINSICS=1,COMPILER=gcc-7.5.0,DEFAULT_AUTOVACUUM,DEFAULT_CACHE_SIZE=-2000,DEFAULT_FILE_FORMAT=4,DEFAULT_FOREIGN_KEYS,DEFAULT_JOURNAL_SIZE_LIMIT=-1,DEFAULT_MMAP_SIZE=0,DEFAULT_PAGE_SIZE=4096,DEFAULT_PCACHE_INITSZ=20,DEFAULT_RECURSIVE_TRIGGERS,DEFAULT_SECTOR_SIZE=4096,DEFAULT_SYNCHRONOUS=2,DEFAULT_WAL_AUTOCHECKPOINT=1000,DEFAULT_WAL_SYNCHRONOUS=2,DEFAULT_WORKER_THREADS=0,ENABLE_COLUMN_METADATA,ENABLE_FTS3,ENABLE_FTS3_PARENTHESIS,ENABLE_FTS4,ENABLE_FTS5,ENABLE_RTREE,ENABLE_SNAPSHOT,MALLOC_SOFT_LIMIT=1024,MAX_ATTACHED=10,MAX_COLUMN=2000,MAX_COMPOUND_SELECT=500,MAX_DEFAULT_PAGE_SIZE=8192,MAX_EXPR_DEPTH=1000,MAX_FUNCTION_ARG=127,MAX_LENGTH=1000000000,MAX_LIKE_PATTERN_LENGTH=50000,MAX_MMAP_SIZE=0x7fff0000,MAX_PAGE_COUNT=1073741823,MAX_PAGE_SIZE=65536,MAX_SQL_LENGTH=1000000000,MAX_TRIGGER_DEPTH=1000,MAX_VARIABLE_NUMBER=32766,MAX_VDBE_OP=250000000,MAX_WORKER_THREADS=8,MUTEX_PTHREADS,SYSTEM_MALLOC,TEMP_STORE=1,THREADSAFE=1
+[2023-03-25 17:45:05.980 +01:00] [INF] [1] Jellyfin.Plugin.PlaybackReporting.Data.ActivityRepository: Default journal_mode for "/config/data/data/playback_reporting.db" is "delete"
+[2023-03-25 17:45:05.980 +01:00] [INF] [1] Jellyfin.Plugin.PlaybackReporting.Data.ActivityRepository: Initialize PlaybackActivity Repository
+[2023-03-25 17:45:05.980 +01:00] [INF] [1] Jellyfin.Plugin.PlaybackReporting.Data.ActivityRepository: PlaybackActivity table schema OK
+[2023-03-25 17:45:05.981 +01:00] [INF] [1] Jellyfin.Plugin.PlaybackReporting.Data.ActivityRepository: Expected : "datecreated:datetime|userid:text|itemid:text|itemtype:text|itemname:text|playbackmethod:text|clientname:text|devicename:text|playduration:int"
+[2023-03-25 17:45:05.981 +01:00] [INF] [1] Jellyfin.Plugin.PlaybackReporting.Data.ActivityRepository: Received : "datecreated:datetime|userid:text|itemid:text|itemtype:text|itemname:text|playbackmethod:text|clientname:text|devicename:text|playduration:int"
+[2023-03-25 17:45:06.018 +01:00] [INF] [1] Emby.Server.Implementations.EntryPoints.ExternalPortForwarding: Starting NAT discovery
+[2023-03-25 17:45:06.028 +01:00] [INF] [8] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/data/tvshows"
+[2023-03-25 17:45:06.035 +01:00] [INF] [14] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/data/movies"
+[2023-03-25 17:45:06.085 +01:00] [INF] [1] Emby.Server.Implementations.ApplicationHost: Executed all post-startup entry points in 0:00:00.4126778
+[2023-03-25 17:45:06.085 +01:00] [INF] [1] Main: Startup complete 0:00:05.8614223
+[2023-03-25 17:45:07.888 +01:00] [INF] [12] Emby.Server.Implementations.ScheduledTasks.TaskManager: "StartupTrigger" fired for task: "Update Plugins"
+[2023-03-25 17:45:07.889 +01:00] [INF] [12] Emby.Server.Implementations.ScheduledTasks.TaskManager: Queuing task "PluginUpdateTask"
+[2023-03-25 17:45:07.894 +01:00] [INF] [15] Emby.Server.Implementations.ScheduledTasks.TaskManager: Executing "Update Plugins"
+[2023-03-25 17:45:09.677 +01:00] [INF] [11] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Update Plugins" Completed after 0 minute(s) and 1 seconds
+[2023-03-25 17:45:09.684 +01:00] [INF] [11] Emby.Server.Implementations.ScheduledTasks.TaskManager: ExecuteQueuedTasks
+[2023-03-25 17:49:24.908 +01:00] [INF] [2] Main: Received a SIGTERM signal, shutting down
+[2023-03-25 17:49:24.909 +01:00] [INF] [2] Main: Running query planner optimizations in the database... This might take a while
+[2023-03-25 17:49:25.045 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "CoreAppHost"
+[2023-03-25 17:49:25.051 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "EventMonitorEntryPoint"
+[2023-03-25 17:49:25.052 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "DlnaEntryPoint"
+[2023-03-25 17:49:25.052 +01:00] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: Disposing PlayToManager
+[2023-03-25 17:49:25.053 +01:00] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: Disposing DeviceDiscovery
+[2023-03-25 17:49:25.054 +01:00] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: Disposing SsdpCommunicationsServer
+[2023-03-25 17:49:25.054 +01:00] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: "SsdpCommunicationsServer" disposing _BroadcastListenSocket
+[2023-03-25 17:49:25.055 +01:00] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: "SsdpCommunicationsServer" Disposing 3 sendSockets
+[2023-03-25 17:49:25.055 +01:00] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: "SsdpCommunicationsServer" disposing sendSocket from "0.0.0.0"
+[2023-03-25 17:49:25.055 +01:00] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: "SsdpCommunicationsServer" disposing sendSocket from "172.23.0.11"
+[2023-03-25 17:49:25.055 +01:00] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: "SsdpCommunicationsServer" disposing sendSocket from "127.0.0.1"
+[2023-03-25 17:49:25.059 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "SchedulesDirect"
+[2023-03-25 17:49:25.059 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "EntryPoint"
+[2023-03-25 17:49:25.060 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "ServerMediator"
+[2023-03-25 17:49:25.065 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "EntryPoint"
+[2023-03-25 17:49:25.065 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "UserSyncNotification"
+[2023-03-25 17:49:25.065 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "LibraryChangedNotifier"
+[2023-03-25 17:49:25.066 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "DeviceAccessEntryPoint"
+[2023-03-25 17:49:25.067 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "ExternalPortForwarding"
+[2023-03-25 17:49:25.067 +01:00] [INF] [2] Emby.Server.Implementations.EntryPoints.ExternalPortForwarding: Stopping NAT discovery
+[2023-03-25 17:49:25.089 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "NotificationEntryPoint"
+[2023-03-25 17:49:25.090 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "EmbyTV"
+[2023-03-25 17:49:25.091 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "UserDataChangeNotifier"
+[2023-03-25 17:49:25.091 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "LibrarySyncNotification"
+[2023-03-25 17:49:25.094 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "AutoSkip"
+[2023-03-25 17:49:25.094 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "UdpServerEntryPoint"
+[2023-03-25 17:49:25.094 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "MusicBrainzAlbumProvider"
+[2023-03-25 17:49:25.094 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "RecordingNotifier"
+[2023-03-25 17:49:25.095 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "Entrypoint"
+[2023-03-25 17:49:25.095 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "LibraryMonitorStartup"
+[2023-03-25 17:49:54.651 +01:00] [INF] [1] Main: Jellyfin version: "10.8.9"
+[2023-03-25 17:49:54.679 +01:00] [INF] [1] Main: Environment Variables: ["[JELLYFIN_CONFIG_DIR, /config]", "[JELLYFIN_CACHE_DIR, /config/cache]", "[JELLYFIN_PublishedServerUrl, localhost]", "[JELLYFIN_WEB_DIR, /usr/share/jellyfin/web]", "[JELLYFIN_LOG_DIR, /config/log]", "[JELLYFIN_DATA_DIR, /config/data]"]
+[2023-03-25 17:49:54.683 +01:00] [INF] [1] Main: Arguments: ["/usr/lib/jellyfin/bin/jellyfin.dll", "--ffmpeg=/usr/lib/jellyfin-ffmpeg/ffmpeg"]
+[2023-03-25 17:49:54.684 +01:00] [INF] [1] Main: Operating system: "Linux"
+[2023-03-25 17:49:54.684 +01:00] [INF] [1] Main: Architecture: X64
+[2023-03-25 17:49:54.684 +01:00] [INF] [1] Main: 64-Bit Process: True
+[2023-03-25 17:49:54.685 +01:00] [INF] [1] Main: User Interactive: True
+[2023-03-25 17:49:54.685 +01:00] [INF] [1] Main: Processor count: 8
+[2023-03-25 17:49:54.685 +01:00] [INF] [1] Main: Program data path: "/config/data"
+[2023-03-25 17:49:54.685 +01:00] [INF] [1] Main: Web resources path: "/usr/share/jellyfin/web"
+[2023-03-25 17:49:54.685 +01:00] [INF] [1] Main: Application directory: "/usr/lib/jellyfin/bin/"
+[2023-03-25 17:49:54.830 +01:00] [INF] [1] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Setting cache path: "/config/cache"
+[2023-03-25 17:49:54.876 +01:00] [INF] [1] Emby.Server.Implementations.ApplicationHost: Loading assemblies
+[2023-03-25 17:49:54.886 +01:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded assembly "ConfusedPolarBear.Plugin.IntroSkipper, Version=0.1.7.0, Culture=neutral, PublicKeyToken=null" from "/config/data/plugins/Intro Skipper_0.1.7.0/ConfusedPolarBear.Plugin.IntroSkipper.dll"
+[2023-03-25 17:49:54.894 +01:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded assembly "LiteDB, Version=5.0.12.0, Culture=neutral, PublicKeyToken=4ee40123013c9f27" from "/config/data/plugins/Kodi Sync Queue_9.0.0.0/LiteDB.dll"
+[2023-03-25 17:49:54.895 +01:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded assembly "Jellyfin.Plugin.KodiSyncQueue, Version=9.0.0.0, Culture=neutral, PublicKeyToken=null" from "/config/data/plugins/Kodi Sync Queue_9.0.0.0/Jellyfin.Plugin.KodiSyncQueue.dll"
+[2023-03-25 17:49:54.896 +01:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded assembly "Jellyfin.Plugin.PlaybackReporting, Version=13.0.0.0, Culture=neutral, PublicKeyToken=null" from "/config/data/plugins/Playback Reporting_13.0.0.0/Jellyfin.Plugin.PlaybackReporting.dll"
+[2023-03-25 17:49:54.903 +01:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded assembly "Trakt, Version=23.0.0.0, Culture=neutral, PublicKeyToken=null" from "/config/data/plugins/Trakt_23.0.0.0/Trakt.dll"
+[2023-03-25 17:49:54.991 +01:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-03-25 17:49:54.992 +01:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-03-25 17:49:54.994 +01:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-03-25 17:49:55.005 +01:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Using bind addresses: "[]"
+[2023-03-25 17:49:55.005 +01:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Using bind exclusions: "[]"
+[2023-03-25 17:49:57.671 +01:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "Intro Skipper" "0.1.7.0"
+[2023-03-25 17:49:57.677 +01:00] [INF] [1] Jellyfin.Plugin.KodiSyncQueue.KodiSyncQueuePlugin: KodiSyncQueue is starting...
+[2023-03-25 17:49:57.677 +01:00] [INF] [1] Jellyfin.Plugin.KodiSyncQueue.Data.DbRepo: Creating DB Repository...
+[2023-03-25 17:49:57.721 +01:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "Kodi Sync Queue" "9.0.0.0"
+[2023-03-25 17:49:57.725 +01:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "Playback Reporting" "13.0.0.0"
+[2023-03-25 17:49:57.728 +01:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "Trakt" "23.0.0.0"
+[2023-03-25 17:49:57.729 +01:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "TMDb" "10.8.9.0"
+[2023-03-25 17:49:57.729 +01:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "Studio Images" "10.8.9.0"
+[2023-03-25 17:49:57.730 +01:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "OMDb" "10.8.9.0"
+[2023-03-25 17:49:57.730 +01:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "MusicBrainz" "10.8.9.0"
+[2023-03-25 17:49:57.733 +01:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "AudioDB" "10.8.9.0"
+[2023-03-25 17:49:57.813 +01:00] [INF] [1] Main: Kestrel listening on "Any IP4 Address"
+[2023-03-25 17:49:57.887 +01:00] [WRN] [1] Microsoft.AspNetCore.DataProtection.Repositories.EphemeralXmlRepository: Using an in-memory repository. Keys will not be persisted to storage.
+[2023-03-25 17:49:57.888 +01:00] [WRN] [1] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager: Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+[2023-03-25 17:49:58.167 +01:00] [WRN] [1] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager: No XML encryptor configured. Key {0ff58f3b-705e-4f1d-a3f8-2e53d659f17c} may be persisted to storage in unencrypted form.
+[2023-03-25 17:49:58.195 +01:00] [INF] [1] Emby.Server.Implementations.ApplicationHost: Running startup tasks
+[2023-03-25 17:49:58.199 +01:00] [INF] [1] Jellyfin.Plugin.KodiSyncQueue.ScheduledTasks.RetentionTask: Retention task scheduled
+[2023-03-25 17:49:58.201 +01:00] [INF] [1] Jellyfin.Plugin.PlaybackReporting.TaskCleanDb: TaskCleanDb Loaded
+[2023-03-25 17:49:58.205 +01:00] [INF] [1] Jellyfin.Plugin.PlaybackReporting.TaskRunBackup: TaskRunBackup Loaded
+[2023-03-25 17:49:58.222 +01:00] [INF] [1] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Detect Introductions" set to fire at 2023-03-26 00:00:00.000 +01:00, which is 06:10:01.7776991 from now.
+[2023-03-25 17:49:58.234 +01:00] [INF] [1] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Remove Old Sync Data" set to fire at 2023-03-26 00:01:00.000 +01:00, which is 06:11:01.7659022 from now.
+[2023-03-25 17:49:58.236 +01:00] [INF] [1] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Playback Reporting Trim Db" set to fire at 2023-03-26 00:00:00.000 +01:00, which is 06:10:01.7633137 from now.
+[2023-03-25 17:49:58.255 +01:00] [INF] [1] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Extract Chapter Images" set to fire at 2023-03-26 02:00:00.000 +01:00, which is 08:10:01.7441424 from now.
+[2023-03-25 17:49:58.341 +01:00] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Found ffmpeg version "5.1.2"
+[2023-03-25 17:49:58.415 +01:00] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available "decoders": ["libdav1d", "av1", "av1_cuvid", "av1_qsv", "h264", "h264_qsv", "h264_cuvid", "hevc", "hevc_qsv", "hevc_cuvid", "mpeg2video", "mpeg2_qsv", "mpeg2_cuvid", "mpeg4", "mpeg4_cuvid", "msmpeg4", "vc1_qsv", "vc1_cuvid", "vp8", "libvpx", "vp8_cuvid", "vp8_qsv", "vp9", "libvpx-vp9", "vp9_cuvid", "vp9_qsv", "aac", "ac3", "flac", "mp3"]
+[2023-03-25 17:49:58.459 +01:00] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available "encoders": ["libx264", "h264_amf", "h264_nvenc", "h264_qsv", "h264_v4l2m2m", "h264_vaapi", "libx265", "hevc_amf", "hevc_nvenc", "hevc_qsv", "hevc_vaapi", "mpeg4", "msmpeg4", "libvpx", "libvpx-vp9", "aac", "libfdk_aac", "ac3", "flac", "libmp3lame", "libopus", "libvorbis", "srt"]
+[2023-03-25 17:49:58.484 +01:00] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available filters: ["deinterlace_qsv", "deinterlace_vaapi", "hwupload_cuda", "hwupload_vaapi", "overlay_opencl", "overlay_qsv", "overlay_vaapi", "overlay_cuda", "procamp_vaapi", "scale_cuda", "scale_opencl", "scale_qsv", "scale_vaapi", "tonemap_cuda", "tonemap_opencl", "tonemap_vaapi", "vpp_qsv", "yadif_cuda", "zscale", "alphasrc"]
+[2023-03-25 17:49:58.719 +01:00] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available hwaccel types: ["cuda", "vaapi", "qsv", "drm", "opencl", "vulkan"]
+[2023-03-25 17:49:58.916 +01:00] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: FFmpeg: "/usr/lib/jellyfin-ffmpeg/ffmpeg"
+[2023-03-25 17:49:58.918 +01:00] [INF] [1] Emby.Server.Implementations.ApplicationHost: ServerId: "0f6b3b653ccc4c65afbd78b2593d13e3"
+[2023-03-25 17:49:59.090 +01:00] [INF] [1] Emby.Server.Implementations.ApplicationHost: Executed all pre-startup entry points in 0:00:00.1515263
+[2023-03-25 17:49:59.097 +01:00] [INF] [1] Emby.Server.Implementations.ApplicationHost: Core startup complete
+[2023-03-25 17:49:59.116 +01:00] [INF] [1] ConfusedPolarBear.Plugin.IntroSkipper.Entrypoint: Running startup enqueue
+[2023-03-25 17:49:59.390 +01:00] [INF] [1] ConfusedPolarBear.Plugin.IntroSkipper.QueueManager: Running enqueue of items in library "Seriale" ("4d6940d6f6d42e00c21bf733e1ea48c7")
+[2023-03-25 17:49:59.408 +01:00] [INF] [1] Jellyfin.Plugin.PlaybackReporting.EventMonitorEntryPoint: EventMonitorEntryPoint Running
+[2023-03-25 17:49:59.415 +01:00] [INF] [1] Jellyfin.Plugin.PlaybackReporting.Data.ActivityRepository: Sqlite version: 3.38.3
+[2023-03-25 17:49:59.424 +01:00] [INF] [1] Jellyfin.Plugin.PlaybackReporting.Data.ActivityRepository: Sqlite compiler options: ATOMIC_INTRINSICS=1,COMPILER=gcc-7.5.0,DEFAULT_AUTOVACUUM,DEFAULT_CACHE_SIZE=-2000,DEFAULT_FILE_FORMAT=4,DEFAULT_FOREIGN_KEYS,DEFAULT_JOURNAL_SIZE_LIMIT=-1,DEFAULT_MMAP_SIZE=0,DEFAULT_PAGE_SIZE=4096,DEFAULT_PCACHE_INITSZ=20,DEFAULT_RECURSIVE_TRIGGERS,DEFAULT_SECTOR_SIZE=4096,DEFAULT_SYNCHRONOUS=2,DEFAULT_WAL_AUTOCHECKPOINT=1000,DEFAULT_WAL_SYNCHRONOUS=2,DEFAULT_WORKER_THREADS=0,ENABLE_COLUMN_METADATA,ENABLE_FTS3,ENABLE_FTS3_PARENTHESIS,ENABLE_FTS4,ENABLE_FTS5,ENABLE_RTREE,ENABLE_SNAPSHOT,MALLOC_SOFT_LIMIT=1024,MAX_ATTACHED=10,MAX_COLUMN=2000,MAX_COMPOUND_SELECT=500,MAX_DEFAULT_PAGE_SIZE=8192,MAX_EXPR_DEPTH=1000,MAX_FUNCTION_ARG=127,MAX_LENGTH=1000000000,MAX_LIKE_PATTERN_LENGTH=50000,MAX_MMAP_SIZE=0x7fff0000,MAX_PAGE_COUNT=1073741823,MAX_PAGE_SIZE=65536,MAX_SQL_LENGTH=1000000000,MAX_TRIGGER_DEPTH=1000,MAX_VARIABLE_NUMBER=32766,MAX_VDBE_OP=250000000,MAX_WORKER_THREADS=8,MUTEX_PTHREADS,SYSTEM_MALLOC,TEMP_STORE=1,THREADSAFE=1
+[2023-03-25 17:49:59.433 +01:00] [INF] [1] Jellyfin.Plugin.PlaybackReporting.Data.ActivityRepository: Default journal_mode for "/config/data/data/playback_reporting.db" is "delete"
+[2023-03-25 17:49:59.434 +01:00] [INF] [1] Jellyfin.Plugin.PlaybackReporting.Data.ActivityRepository: Initialize PlaybackActivity Repository
+[2023-03-25 17:49:59.436 +01:00] [INF] [1] Jellyfin.Plugin.PlaybackReporting.Data.ActivityRepository: PlaybackActivity table schema OK
+[2023-03-25 17:49:59.436 +01:00] [INF] [1] Jellyfin.Plugin.PlaybackReporting.Data.ActivityRepository: Expected : "datecreated:datetime|userid:text|itemid:text|itemtype:text|itemname:text|playbackmethod:text|clientname:text|devicename:text|playduration:int"
+[2023-03-25 17:49:59.436 +01:00] [INF] [1] Jellyfin.Plugin.PlaybackReporting.Data.ActivityRepository: Received : "datecreated:datetime|userid:text|itemid:text|itemtype:text|itemname:text|playbackmethod:text|clientname:text|devicename:text|playduration:int"
+[2023-03-25 17:49:59.470 +01:00] [INF] [14] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/data/movies"
+[2023-03-25 17:49:59.470 +01:00] [INF] [11] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/data/tvshows"
+[2023-03-25 17:49:59.472 +01:00] [INF] [1] Emby.Server.Implementations.EntryPoints.ExternalPortForwarding: Starting NAT discovery
+[2023-03-25 17:49:59.521 +01:00] [INF] [1] Emby.Server.Implementations.ApplicationHost: Executed all post-startup entry points in 0:00:00.424218
+[2023-03-25 17:49:59.521 +01:00] [INF] [1] Main: Startup complete 0:00:05.0722062
+[2023-03-25 17:50:01.278 +01:00] [INF] [8] Emby.Server.Implementations.ScheduledTasks.TaskManager: "StartupTrigger" fired for task: "Update Plugins"
+[2023-03-25 17:50:01.279 +01:00] [INF] [8] Emby.Server.Implementations.ScheduledTasks.TaskManager: Queuing task "PluginUpdateTask"
+[2023-03-25 17:50:01.290 +01:00] [INF] [8] Emby.Server.Implementations.ScheduledTasks.TaskManager: Executing "Update Plugins"
+[2023-03-25 17:50:03.495 +01:00] [INF] [13] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Update Plugins" Completed after 0 minute(s) and 2 seconds
+[2023-03-25 17:50:03.501 +01:00] [INF] [13] Emby.Server.Implementations.ScheduledTasks.TaskManager: ExecuteQueuedTasks
+[2023-03-25 17:50:06.134 +01:00] [INF] [2] Main: Received a SIGTERM signal, shutting down
+[2023-03-25 17:50:06.134 +01:00] [INF] [2] Main: Running query planner optimizations in the database... This might take a while
+[2023-03-25 17:50:06.174 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "CoreAppHost"
+[2023-03-25 17:50:06.178 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "EventMonitorEntryPoint"
+[2023-03-25 17:50:06.180 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "DlnaEntryPoint"
+[2023-03-25 17:50:06.181 +01:00] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: Disposing PlayToManager
+[2023-03-25 17:50:06.183 +01:00] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: Disposing DeviceDiscovery
+[2023-03-25 17:50:06.184 +01:00] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: Disposing SsdpCommunicationsServer
+[2023-03-25 17:50:06.184 +01:00] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: "SsdpCommunicationsServer" disposing _BroadcastListenSocket
+[2023-03-25 17:50:06.205 +01:00] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: "SsdpCommunicationsServer" Disposing 3 sendSockets
+[2023-03-25 17:50:06.215 +01:00] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: "SsdpCommunicationsServer" disposing sendSocket from "0.0.0.0"
+[2023-03-25 17:50:06.230 +01:00] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: "SsdpCommunicationsServer" disposing sendSocket from "172.23.0.4"
+[2023-03-25 17:50:06.236 +01:00] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: "SsdpCommunicationsServer" disposing sendSocket from "127.0.0.1"
+[2023-03-25 17:50:06.236 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "SchedulesDirect"
+[2023-03-25 17:50:06.242 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "EntryPoint"
+[2023-03-25 17:50:06.242 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "ServerMediator"
+[2023-03-25 17:50:06.245 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "EntryPoint"
+[2023-03-25 17:50:06.246 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "UserSyncNotification"
+[2023-03-25 17:50:06.246 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "LibraryChangedNotifier"
+[2023-03-25 17:50:06.249 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "DeviceAccessEntryPoint"
+[2023-03-25 17:50:06.249 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "ExternalPortForwarding"
+[2023-03-25 17:50:06.268 +01:00] [INF] [2] Emby.Server.Implementations.EntryPoints.ExternalPortForwarding: Stopping NAT discovery
+[2023-03-25 17:50:06.281 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "NotificationEntryPoint"
+[2023-03-25 17:50:06.282 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "EmbyTV"
+[2023-03-25 17:50:06.284 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "UserDataChangeNotifier"
+[2023-03-25 17:50:06.285 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "LibrarySyncNotification"
+[2023-03-25 17:50:06.285 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "AutoSkip"
+[2023-03-25 17:50:06.289 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "UdpServerEntryPoint"
+[2023-03-25 17:50:06.293 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "MusicBrainzAlbumProvider"
+[2023-03-25 17:50:06.294 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "RecordingNotifier"
+[2023-03-25 17:50:06.295 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "Entrypoint"
+[2023-03-25 17:50:06.296 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "LibraryMonitorStartup"
+[2023-03-25 17:50:45.425 +01:00] [INF] [1] Main: Jellyfin version: "10.8.9"
+[2023-03-25 17:50:45.468 +01:00] [INF] [1] Main: Environment Variables: ["[JELLYFIN_DATA_DIR, /config/data]", "[JELLYFIN_WEB_DIR, /usr/share/jellyfin/web]", "[JELLYFIN_LOG_DIR, /config/log]", "[JELLYFIN_PublishedServerUrl, localhost]", "[JELLYFIN_CACHE_DIR, /config/cache]", "[JELLYFIN_CONFIG_DIR, /config]"]
+[2023-03-25 17:50:45.474 +01:00] [INF] [1] Main: Arguments: ["/usr/lib/jellyfin/bin/jellyfin.dll", "--ffmpeg=/usr/lib/jellyfin-ffmpeg/ffmpeg"]
+[2023-03-25 17:50:45.475 +01:00] [INF] [1] Main: Operating system: "Linux"
+[2023-03-25 17:50:45.475 +01:00] [INF] [1] Main: Architecture: X64
+[2023-03-25 17:50:45.476 +01:00] [INF] [1] Main: 64-Bit Process: True
+[2023-03-25 17:50:45.476 +01:00] [INF] [1] Main: User Interactive: True
+[2023-03-25 17:50:45.476 +01:00] [INF] [1] Main: Processor count: 8
+[2023-03-25 17:50:45.476 +01:00] [INF] [1] Main: Program data path: "/config/data"
+[2023-03-25 17:50:45.476 +01:00] [INF] [1] Main: Web resources path: "/usr/share/jellyfin/web"
+[2023-03-25 17:50:45.476 +01:00] [INF] [1] Main: Application directory: "/usr/lib/jellyfin/bin/"
+[2023-03-25 17:50:45.761 +01:00] [INF] [1] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Setting cache path: "/config/cache"
+[2023-03-25 17:50:45.840 +01:00] [INF] [1] Emby.Server.Implementations.ApplicationHost: Loading assemblies
+[2023-03-25 17:50:45.856 +01:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded assembly "ConfusedPolarBear.Plugin.IntroSkipper, Version=0.1.7.0, Culture=neutral, PublicKeyToken=null" from "/config/data/plugins/Intro Skipper_0.1.7.0/ConfusedPolarBear.Plugin.IntroSkipper.dll"
+[2023-03-25 17:50:45.866 +01:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded assembly "LiteDB, Version=5.0.12.0, Culture=neutral, PublicKeyToken=4ee40123013c9f27" from "/config/data/plugins/Kodi Sync Queue_9.0.0.0/LiteDB.dll"
+[2023-03-25 17:50:45.869 +01:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded assembly "Jellyfin.Plugin.KodiSyncQueue, Version=9.0.0.0, Culture=neutral, PublicKeyToken=null" from "/config/data/plugins/Kodi Sync Queue_9.0.0.0/Jellyfin.Plugin.KodiSyncQueue.dll"
+[2023-03-25 17:50:45.871 +01:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded assembly "Jellyfin.Plugin.PlaybackReporting, Version=13.0.0.0, Culture=neutral, PublicKeyToken=null" from "/config/data/plugins/Playback Reporting_13.0.0.0/Jellyfin.Plugin.PlaybackReporting.dll"
+[2023-03-25 17:50:45.878 +01:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded assembly "Trakt, Version=23.0.0.0, Culture=neutral, PublicKeyToken=null" from "/config/data/plugins/Trakt_23.0.0.0/Trakt.dll"
+[2023-03-25 17:50:45.981 +01:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-03-25 17:50:45.982 +01:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2023-03-25 17:50:45.983 +01:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2023-03-25 17:50:45.993 +01:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Using bind addresses: "[]"
+[2023-03-25 17:50:45.994 +01:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Using bind exclusions: "[]"
+[2023-03-25 17:50:48.752 +01:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "Intro Skipper" "0.1.7.0"
+[2023-03-25 17:50:48.754 +01:00] [INF] [1] Jellyfin.Plugin.KodiSyncQueue.KodiSyncQueuePlugin: KodiSyncQueue is starting...
+[2023-03-25 17:50:48.754 +01:00] [INF] [1] Jellyfin.Plugin.KodiSyncQueue.Data.DbRepo: Creating DB Repository...
+[2023-03-25 17:50:48.798 +01:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "Kodi Sync Queue" "9.0.0.0"
+[2023-03-25 17:50:48.816 +01:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "Playback Reporting" "13.0.0.0"
+[2023-03-25 17:50:48.837 +01:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "Trakt" "23.0.0.0"
+[2023-03-25 17:50:48.841 +01:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "TMDb" "10.8.9.0"
+[2023-03-25 17:50:48.841 +01:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "Studio Images" "10.8.9.0"
+[2023-03-25 17:50:48.841 +01:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "OMDb" "10.8.9.0"
+[2023-03-25 17:50:48.850 +01:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "MusicBrainz" "10.8.9.0"
+[2023-03-25 17:50:48.852 +01:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "AudioDB" "10.8.9.0"
+[2023-03-25 17:50:48.990 +01:00] [INF] [1] Main: Kestrel listening on "Any IP4 Address"
+[2023-03-25 17:50:49.054 +01:00] [WRN] [1] Microsoft.AspNetCore.DataProtection.Repositories.EphemeralXmlRepository: Using an in-memory repository. Keys will not be persisted to storage.
+[2023-03-25 17:50:49.056 +01:00] [WRN] [1] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager: Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+[2023-03-25 17:50:49.410 +01:00] [WRN] [1] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager: No XML encryptor configured. Key {2657ed7e-c14b-47bc-aa70-ff4336319d7a} may be persisted to storage in unencrypted form.
+[2023-03-25 17:50:49.510 +01:00] [INF] [1] Emby.Server.Implementations.ApplicationHost: Running startup tasks
+[2023-03-25 17:50:49.521 +01:00] [INF] [1] Jellyfin.Plugin.KodiSyncQueue.ScheduledTasks.RetentionTask: Retention task scheduled
+[2023-03-25 17:50:49.526 +01:00] [INF] [1] Jellyfin.Plugin.PlaybackReporting.TaskCleanDb: TaskCleanDb Loaded
+[2023-03-25 17:50:49.528 +01:00] [INF] [1] Jellyfin.Plugin.PlaybackReporting.TaskRunBackup: TaskRunBackup Loaded
+[2023-03-25 17:50:49.546 +01:00] [INF] [1] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Detect Introductions" set to fire at 2023-03-26 00:00:00.000 +01:00, which is 06:09:10.4535897 from now.
+[2023-03-25 17:50:49.548 +01:00] [INF] [1] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Remove Old Sync Data" set to fire at 2023-03-26 00:01:00.000 +01:00, which is 06:10:10.4519306 from now.
+[2023-03-25 17:50:49.549 +01:00] [INF] [1] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Playback Reporting Trim Db" set to fire at 2023-03-26 00:00:00.000 +01:00, which is 06:09:10.4512256 from now.
+[2023-03-25 17:50:49.576 +01:00] [INF] [1] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Extract Chapter Images" set to fire at 2023-03-26 02:00:00.000 +01:00, which is 08:09:10.4231997 from now.
+[2023-03-25 17:50:49.631 +01:00] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Found ffmpeg version "5.1.2"
+[2023-03-25 17:50:49.673 +01:00] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available "decoders": ["libdav1d", "av1", "av1_cuvid", "av1_qsv", "h264", "h264_qsv", "h264_cuvid", "hevc", "hevc_qsv", "hevc_cuvid", "mpeg2video", "mpeg2_qsv", "mpeg2_cuvid", "mpeg4", "mpeg4_cuvid", "msmpeg4", "vc1_qsv", "vc1_cuvid", "vp8", "libvpx", "vp8_cuvid", "vp8_qsv", "vp9", "libvpx-vp9", "vp9_cuvid", "vp9_qsv", "aac", "ac3", "flac", "mp3"]
+[2023-03-25 17:50:49.700 +01:00] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available "encoders": ["libx264", "h264_amf", "h264_nvenc", "h264_qsv", "h264_v4l2m2m", "h264_vaapi", "libx265", "hevc_amf", "hevc_nvenc", "hevc_qsv", "hevc_vaapi", "mpeg4", "msmpeg4", "libvpx", "libvpx-vp9", "aac", "libfdk_aac", "ac3", "flac", "libmp3lame", "libopus", "libvorbis", "srt"]
+[2023-03-25 17:50:49.718 +01:00] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available filters: ["deinterlace_qsv", "deinterlace_vaapi", "hwupload_cuda", "hwupload_vaapi", "overlay_opencl", "overlay_qsv", "overlay_vaapi", "overlay_cuda", "procamp_vaapi", "scale_cuda", "scale_opencl", "scale_qsv", "scale_vaapi", "tonemap_cuda", "tonemap_opencl", "tonemap_vaapi", "vpp_qsv", "yadif_cuda", "zscale", "alphasrc"]
+[2023-03-25 17:50:49.808 +01:00] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available hwaccel types: ["cuda", "vaapi", "qsv", "drm", "opencl", "vulkan"]
+[2023-03-25 17:50:49.942 +01:00] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: FFmpeg: "/usr/lib/jellyfin-ffmpeg/ffmpeg"
+[2023-03-25 17:50:49.944 +01:00] [INF] [1] Emby.Server.Implementations.ApplicationHost: ServerId: "0f6b3b653ccc4c65afbd78b2593d13e3"
+[2023-03-25 17:50:50.039 +01:00] [INF] [1] Emby.Server.Implementations.ApplicationHost: Executed all pre-startup entry points in 0:00:00.0826588
+[2023-03-25 17:50:50.040 +01:00] [INF] [1] Emby.Server.Implementations.ApplicationHost: Core startup complete
+[2023-03-25 17:50:50.066 +01:00] [INF] [1] ConfusedPolarBear.Plugin.IntroSkipper.Entrypoint: Running startup enqueue
+[2023-03-25 17:50:50.295 +01:00] [INF] [1] ConfusedPolarBear.Plugin.IntroSkipper.QueueManager: Running enqueue of items in library "Seriale" ("4d6940d6f6d42e00c21bf733e1ea48c7")
+[2023-03-25 17:50:50.311 +01:00] [INF] [1] Jellyfin.Plugin.PlaybackReporting.EventMonitorEntryPoint: EventMonitorEntryPoint Running
+[2023-03-25 17:50:50.320 +01:00] [INF] [1] Jellyfin.Plugin.PlaybackReporting.Data.ActivityRepository: Sqlite version: 3.38.3
+[2023-03-25 17:50:50.323 +01:00] [INF] [1] Jellyfin.Plugin.PlaybackReporting.Data.ActivityRepository: Sqlite compiler options: ATOMIC_INTRINSICS=1,COMPILER=gcc-7.5.0,DEFAULT_AUTOVACUUM,DEFAULT_CACHE_SIZE=-2000,DEFAULT_FILE_FORMAT=4,DEFAULT_FOREIGN_KEYS,DEFAULT_JOURNAL_SIZE_LIMIT=-1,DEFAULT_MMAP_SIZE=0,DEFAULT_PAGE_SIZE=4096,DEFAULT_PCACHE_INITSZ=20,DEFAULT_RECURSIVE_TRIGGERS,DEFAULT_SECTOR_SIZE=4096,DEFAULT_SYNCHRONOUS=2,DEFAULT_WAL_AUTOCHECKPOINT=1000,DEFAULT_WAL_SYNCHRONOUS=2,DEFAULT_WORKER_THREADS=0,ENABLE_COLUMN_METADATA,ENABLE_FTS3,ENABLE_FTS3_PARENTHESIS,ENABLE_FTS4,ENABLE_FTS5,ENABLE_RTREE,ENABLE_SNAPSHOT,MALLOC_SOFT_LIMIT=1024,MAX_ATTACHED=10,MAX_COLUMN=2000,MAX_COMPOUND_SELECT=500,MAX_DEFAULT_PAGE_SIZE=8192,MAX_EXPR_DEPTH=1000,MAX_FUNCTION_ARG=127,MAX_LENGTH=1000000000,MAX_LIKE_PATTERN_LENGTH=50000,MAX_MMAP_SIZE=0x7fff0000,MAX_PAGE_COUNT=1073741823,MAX_PAGE_SIZE=65536,MAX_SQL_LENGTH=1000000000,MAX_TRIGGER_DEPTH=1000,MAX_VARIABLE_NUMBER=32766,MAX_VDBE_OP=250000000,MAX_WORKER_THREADS=8,MUTEX_PTHREADS,SYSTEM_MALLOC,TEMP_STORE=1,THREADSAFE=1
+[2023-03-25 17:50:50.328 +01:00] [INF] [1] Jellyfin.Plugin.PlaybackReporting.Data.ActivityRepository: Default journal_mode for "/config/data/data/playback_reporting.db" is "delete"
+[2023-03-25 17:50:50.328 +01:00] [INF] [1] Jellyfin.Plugin.PlaybackReporting.Data.ActivityRepository: Initialize PlaybackActivity Repository
+[2023-03-25 17:50:50.328 +01:00] [INF] [1] Jellyfin.Plugin.PlaybackReporting.Data.ActivityRepository: PlaybackActivity table schema OK
+[2023-03-25 17:50:50.328 +01:00] [INF] [1] Jellyfin.Plugin.PlaybackReporting.Data.ActivityRepository: Expected : "datecreated:datetime|userid:text|itemid:text|itemtype:text|itemname:text|playbackmethod:text|clientname:text|devicename:text|playduration:int"
+[2023-03-25 17:50:50.328 +01:00] [INF] [1] Jellyfin.Plugin.PlaybackReporting.Data.ActivityRepository: Received : "datecreated:datetime|userid:text|itemid:text|itemtype:text|itemname:text|playbackmethod:text|clientname:text|devicename:text|playduration:int"
+[2023-03-25 17:50:50.369 +01:00] [INF] [1] Emby.Server.Implementations.EntryPoints.ExternalPortForwarding: Starting NAT discovery
+[2023-03-25 17:50:50.374 +01:00] [INF] [10] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/data/tvshows"
+[2023-03-25 17:50:50.389 +01:00] [INF] [12] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/data/movies"
+[2023-03-25 17:50:50.425 +01:00] [INF] [1] Emby.Server.Implementations.ApplicationHost: Executed all post-startup entry points in 0:00:00.3821137
+[2023-03-25 17:50:50.425 +01:00] [INF] [1] Main: Startup complete 0:00:05.2033903
+[2023-03-25 17:50:52.600 +01:00] [INF] [10] Emby.Server.Implementations.ScheduledTasks.TaskManager: "StartupTrigger" fired for task: "Update Plugins"
+[2023-03-25 17:50:52.601 +01:00] [INF] [10] Emby.Server.Implementations.ScheduledTasks.TaskManager: Queuing task "PluginUpdateTask"
+[2023-03-25 17:50:52.610 +01:00] [INF] [12] Emby.Server.Implementations.ScheduledTasks.TaskManager: Executing "Update Plugins"
+[2023-03-25 17:50:54.351 +01:00] [INF] [11] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Update Plugins" Completed after 0 minute(s) and 1 seconds
+[2023-03-25 17:50:54.356 +01:00] [INF] [11] Emby.Server.Implementations.ScheduledTasks.TaskManager: ExecuteQueuedTasks
+[2023-03-25 18:00:32.665 +01:00] [INF] [2] Main: Received a SIGTERM signal, shutting down
+[2023-03-25 18:00:32.667 +01:00] [INF] [2] Main: Running query planner optimizations in the database... This might take a while
+[2023-03-25 18:00:32.701 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "CoreAppHost"
+[2023-03-25 18:00:32.708 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "EventMonitorEntryPoint"
+[2023-03-25 18:00:32.713 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "DlnaEntryPoint"
+[2023-03-25 18:00:32.713 +01:00] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: Disposing PlayToManager
+[2023-03-25 18:00:32.715 +01:00] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: Disposing DeviceDiscovery
+[2023-03-25 18:00:32.716 +01:00] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: Disposing SsdpCommunicationsServer
+[2023-03-25 18:00:32.721 +01:00] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: "SsdpCommunicationsServer" disposing _BroadcastListenSocket
+[2023-03-25 18:00:32.727 +01:00] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: "SsdpCommunicationsServer" Disposing 3 sendSockets
+[2023-03-25 18:00:32.729 +01:00] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: "SsdpCommunicationsServer" disposing sendSocket from "0.0.0.0"
+[2023-03-25 18:00:32.749 +01:00] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: "SsdpCommunicationsServer" disposing sendSocket from "172.24.0.10"
+[2023-03-25 18:00:32.749 +01:00] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: "SsdpCommunicationsServer" disposing sendSocket from "127.0.0.1"
+[2023-03-25 18:00:32.749 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "SchedulesDirect"
+[2023-03-25 18:00:32.749 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "EntryPoint"
+[2023-03-25 18:00:32.749 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "ServerMediator"
+[2023-03-25 18:00:32.756 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "EntryPoint"
+[2023-03-25 18:00:32.756 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "UserSyncNotification"
+[2023-03-25 18:00:32.756 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "LibraryChangedNotifier"
+[2023-03-25 18:00:32.757 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "DeviceAccessEntryPoint"
+[2023-03-25 18:00:32.760 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "ExternalPortForwarding"
+[2023-03-25 18:00:32.760 +01:00] [INF] [2] Emby.Server.Implementations.EntryPoints.ExternalPortForwarding: Stopping NAT discovery
+[2023-03-25 18:00:32.770 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "NotificationEntryPoint"
+[2023-03-25 18:00:32.780 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "EmbyTV"
+[2023-03-25 18:00:32.783 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "UserDataChangeNotifier"
+[2023-03-25 18:00:32.787 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "LibrarySyncNotification"
+[2023-03-25 18:00:32.788 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "AutoSkip"
+[2023-03-25 18:00:32.788 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "UdpServerEntryPoint"
+[2023-03-25 18:00:32.788 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "MusicBrainzAlbumProvider"
+[2023-03-25 18:00:32.788 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "RecordingNotifier"
+[2023-03-25 18:00:32.792 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "Entrypoint"
+[2023-03-25 18:00:32.792 +01:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "LibraryMonitorStartup"

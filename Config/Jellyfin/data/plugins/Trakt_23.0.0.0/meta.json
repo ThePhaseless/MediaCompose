@@ -1,0 +1,15 @@
+{
+  "category": "General",
+  "changelog": "### New features and improvements ###\n- Added config parameter Don\u0027t remove items from trakt (#196) @addamanth\n\n### Bug Fixes ###\n- Sync  if not set locally (#201) @blackwind\n- Fix episode last played date syncing (#199) @Shadowghost",
+  "description": "Record your watched media with Trakt.\n",
+  "guid": "4fe3201e-d6ae-4f2e-8917-e12bda571281",
+  "name": "Trakt",
+  "overview": "Record your watched media with Trakt",
+  "owner": "jellyfin",
+  "targetAbi": "10.8.9.0",
+  "timestamp": "2023-02-11T00:21:39.0000000Z",
+  "version": "23.0.0.0",
+  "status": "Active",
+  "autoUpdate": true,
+  "imagePath": "/config/data/plugins/Trakt_23.0.0.0/jellyfin-plugin-trakt.png"
+}
