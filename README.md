@@ -9,7 +9,7 @@ Set envs in `env.env` file or in any other way and
 
 ### Security Info
 
-API keys are the same every for everyone, so it's not recommended to use outside of your local network. If you want to do so, i recommend resetting every API key in every app and updating them in appropriate settings.
+API keys are the same every for everyone who use this repo, so it's not recommended to use outside of your local network. If you want to do so, i recommend resetting every API key in every app and updating them in appropriate settings.
 
 To run with .env file use command next in folder with `docker-compose.yml`:
 
