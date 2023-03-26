@@ -1,6 +1,6 @@
 # MediaCompose
 
-A docker-compose project for fast self-hosted media center
+A docker-compose project for quick deployment of self-hosted media center
 
 ## How to use
 
