@@ -7,6 +7,10 @@ A docker-compose project for fast self-hosted media center
 Set envs in `env.env` file or in any other way and
 **_drop insides of Config file inside CONFIG_PATH!_**
 
+### Security Info
+
+API keys are the same every for everyone, so it's not recommended to use outside of your local network. If you want to do so, i recommend resetting every API key in every app and updating them in appropriate settings.
+
 To run with .env file use command next in folder with `docker-compose.yml`:
 
 `sudo docker-compose --env-file env.env up -d`
