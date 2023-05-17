@@ -1,5 +1,14 @@
 version: "3.7"
 services:
+  homepage:
+    image: ghcr.io/benphelps/homepage:latest
+    container_name: homepage
+    ports:
+      - 3000:3000
+    volumes:
+      - ${CONFIG_PATH}/Homepage:/app/config
+      - /var/run/docker.sock:/var/run/docker.sock:ro # (optional) For docker integrations
+      
   jellyseerr:
     image: fallenbagel/jellyseerr:latest
     container_name: jellyseerr
@@ -9,7 +18,7 @@ services:
     ports:
       - 5055:5055
     volumes:
-      - ${CONFIG_PATH}/Jellyseerr:/app/config
+    - ${CONFIG_PATH}/Jellyseerr:/app/config
     restart: unless-stopped
 
   jellyfin:
